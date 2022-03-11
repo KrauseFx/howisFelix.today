@@ -2368,7 +2368,7 @@ After having tried various tools available to visualize, I ended up writing my o
   #next-cities-table {
     display: none;
     margin-left: auto;
-    max-width: 450px;
+    max-width: 500px;
     margin-right: auto;
     border: none;
     margin-bottom: 0px;
@@ -2383,6 +2383,7 @@ After having tried various tools available to visualize, I ended up writing my o
     border-left: 0;
     font-size: 14px;
     background-color: transparent;
+    white-space: nowrap;
   }
   #next-cities-table > tr {
     background-color: transparent !important;
@@ -2392,6 +2393,7 @@ After having tried various tools available to visualize, I ended up writing my o
     border: none;
     padding: 9px 30px 0px;
     background-color: transparent !important;
+    white-space: nowrap;
   }
   footer {
     margin-top: 30px;
