@@ -29,4 +29,4 @@ binding.local_variable_set(:all_data, all_data)
 
 renderer = ERB.new(File.read("graphs/data.erb"))
 output = renderer.result(binding)
-File.write("data.md", output)
+File.write("index.md", output)

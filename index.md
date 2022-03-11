@@ -198,7 +198,7 @@ meta: {}
 </script>
 
 <div id="mapsContainer">
-  <div id="mapsMenuBannerCover"></div>
+  <div id="mapsMenuBannerCover">whereisfelix.today?</div>
   <img id="currentLocationMap">
 </div>
 <div id="story-available" class="story-not-available">
@@ -2147,13 +2147,17 @@ After having tried various tools available to visualize, I ended up writing my o
     z-index: -1;
   }
   #mapsMenuBannerCover {
-    height: 90px;
+    height: 60px;
     border-bottom: 2px solid #e4e7ef;
     background-color: rgba(255, 255, 255, 0.9);
     width: 100%;
     position: absolute;
     top: 0px;
     z-index: 2;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 12px;
+    color: #444;
   }
   #currentLocationMap {
     width: 100%;
@@ -2188,7 +2192,7 @@ After having tried various tools available to visualize, I ended up writing my o
     text-align: center;
     margin-bottom: -20px;
     padding-bottom: 10px;
-    margin-top: -33px;
+    margin-top: 100px;
   }
   .blurred {
     filter: blur(5px);
@@ -2395,3 +2399,7 @@ After having tried various tools available to visualize, I ended up writing my o
     font-size: 14px;
   }
 </style>
+
+<div class="footer-col footer-col-3">
+  {% include newsletter.html %}
+</div>
