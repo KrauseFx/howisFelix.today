@@ -361,6 +361,7 @@ The goal of this project was to answer a handful of questions about my life, thi
 - How does sleep affect my day, my fitness level, and happiness?
 - How does the weather, and the different seasons affect my life?
 - Are there any trends over the last few years?
+- How does computer time, work and hours in meetings affect my personal life?
 
 Currently, I have <b><span id="data-points" class="highlighed">~380,000</span> data points</b>, with the biggest data sources being:
 
