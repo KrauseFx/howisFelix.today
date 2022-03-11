@@ -2152,23 +2152,23 @@ After having tried various tools available to visualize, I ended up writing my o
     z-index: -1;
   }
   #mapsMenuBannerCover {
-    height: 60px;
+    height: 30px;
     border-bottom: 2px solid #e4e7ef;
     background-color: rgba(255, 255, 255, 0.9);
     width: 100%;
     position: absolute;
     top: 0px;
     z-index: 2;
-    font-size: 28px;
+    font-size: 16px;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 4px;
     color: #444;
   }
   #currentLocationMap {
     width: 100%;
     background-position: center !important;
     background-size: cover !important;
-    height: 250px;
+    height: 230px;
 
     /* Show loading map by default while loading */
     background: url("/graphs/assets/loading-map.jpg") no-repeat;
@@ -2189,7 +2189,7 @@ After having tried various tools available to visualize, I ended up writing my o
     left: 0;
     right: 0;
     position: absolute;
-    top: 180px;
+    top: 160px;
     z-index: 10 !important;
   }
   #realTimeDataDiv {
@@ -2197,7 +2197,7 @@ After having tried various tools available to visualize, I ended up writing my o
     text-align: center;
     margin-bottom: -20px;
     padding-bottom: 10px;
-    margin-top: 0px;
+    margin-top: -20px;
   }
   .blurred {
     filter: blur(5px);
