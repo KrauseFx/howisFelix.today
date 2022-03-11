@@ -375,7 +375,7 @@ Currently, I have <b><span id="data-points" class="highlighed">~380,000</span> d
   <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
 </table>
 
-I selected <span class="highlighted">42</span> graphs to show publicly on this page. For privacy reasons, and to prevent any any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">43</span> graphs to show publicly on this page. For privacy reasons, and to prevent any any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 
 
@@ -1771,6 +1771,46 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">3 years of data - Last updated on 2022-01-01</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-github-contributions">
+      <h3>GitHub Open Source Contributions</h3>
+      <p class="graph-description">
+        GitHub open source contributions visualized using GitHub's own contribution graph. The graphs only count code commits to open source repositories.
+      </p>
+
+      <ul>
+        
+          <li>I started <a href='https://fastlane.tools' target='_blank'>fastlane</a> September 2014, and worked on it until early 2018</li>
+        
+          <li>Early 2018 I started working on <a href='https://github.com/fastlane/ci' target='_blank'>fastlane.ci</a> which slowly got shut down over time by Google</li>
+        
+          <li>January 2019 I decided to leave Google, as fastlane.ci wasn't going anywhere</li>
+        
+          <li>Early 2019 I worked on <a href='https://instapipe.net' target='_blank'>instapipe.net</a> and this very project via <a href='https://github.com/KrauseFx/FxLifeSheet' target='_blank'>FxLifeSheet</a></li>
+        
+          <li>Second half of 2019, until Summer 2021 I worked at Root on commercial software, which doesn't show up on those graphs</li>
+        
+          <li>End of 2021 I resumed work on FxLifeSheet to build this very page</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        GitHub
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/github-contributions.png" class="image-link" alt="GitHub Open Source Contributions" onclick="enlargeImage(this, 'graphs/screens/github-contributions.png', 'GitHub Open Source Contributions')" />
+      </div>
+
+      <span class="graph-date">11 years of data - Last updated on 2022-01-01</span>
     </div>
   
     
