@@ -196,6 +196,10 @@ meta: {}
     const a = document.getElementById("show-all-food-a")
     a.innerHTML = a.innerHTML == "Show all food entries" ? "Hide food entries" : "Show all food entries"
   }
+
+  // Now, add an additional ? to the URL to make it look whereisfelix.today?
+  // By modifying the GET parameters
+  window.history.replaceState(null, null, "?");
 </script>
 
 <div id="mapsContainer">
