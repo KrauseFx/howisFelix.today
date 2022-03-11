@@ -2232,6 +2232,7 @@ After having tried various tools available to visualize, I ended up writing my o
   }
   #real-time-table > * > tr > td:first-child {
     text-align: right;
+    white-space: nowrap;
   }
   #table-container { 
     margin-top: 20px; 
