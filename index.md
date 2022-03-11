@@ -209,7 +209,6 @@ meta: {}
 <div id="story-available" class="story-not-available">
   <img id="storyProfilePicture" src="assets/FelixKrauseCropped.jpg" onclick="showStories()" />
 </div>
-<div id="mapsContainerCover"></div>
 
 <div id="realTimeDataDiv">
   <h2 id="currentCityContainer">Felix is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
@@ -2173,9 +2172,6 @@ After having tried various tools available to visualize, I ended up writing my o
     /* Show loading map by default while loading */
     background: url("/graphs/assets/loading-map.jpg") no-repeat;
   }
-  #mapsContainerCover {
-    height: 320px;
-  }
   #storyProfilePicture {
     width: 128px;
     height: 128px;
@@ -2189,7 +2185,7 @@ After having tried various tools available to visualize, I ended up writing my o
     left: 0;
     right: 0;
     position: absolute;
-    top: 160px;
+    top: 158px;
     z-index: 10 !important;
   }
   #realTimeDataDiv {
@@ -2197,7 +2193,7 @@ After having tried various tools available to visualize, I ended up writing my o
     text-align: center;
     margin-bottom: -20px;
     padding-bottom: 10px;
-    margin-top: -20px;
+    margin-top: 300px;
   }
   .blurred {
     filter: blur(5px);
