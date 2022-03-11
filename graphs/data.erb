@@ -598,6 +598,11 @@ After having tried various tools available to visualize, I ended up writing my o
   document.getElementById("enlargedImageContainerBackground").addEventListener("touchstart", dismissImage); // so that mobile devices don't scroll 
   document.getElementById("enlargedImageContainerBackground").addEventListener("click", dismissImage); // desktop browsers
 
+  window.addEventListener('resize', function(event) {
+    // Reposition the arrows
+    alignArrowKeys(lastNode);
+  }, true);
+
   window.addEventListener("keyup", function(e) {
     if (e.keyCode == 27) { // ESC
       if (document.getElementsByClassName("graph-entry-selected").length > 0 && document.getElementById("enlargedImageContainer").style.display == "none") {

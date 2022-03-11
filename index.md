@@ -445,7 +445,7 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
         
           <li>14% more likely to have eaten veggies</li>
         
-          <li>45% less time spent in video & audio calls that day</li>
+          <li><span class='highlighted'>45% less time spent in video & audio calls that day</span></li>
         
       </ul>
 
@@ -2125,6 +2125,11 @@ After having tried various tools available to visualize, I ended up writing my o
   document.getElementById("arrow-right-button").addEventListener("click", nextGraph);
   document.getElementById("enlargedImageContainerBackground").addEventListener("touchstart", dismissImage); // so that mobile devices don't scroll 
   document.getElementById("enlargedImageContainerBackground").addEventListener("click", dismissImage); // desktop browsers
+
+  window.addEventListener('resize', function(event) {
+    // Reposition the arrows
+    alignArrowKeys(lastNode);
+  }, true);
 
   window.addEventListener("keyup", function(e) {
     if (e.keyCode == 27) { // ESC
