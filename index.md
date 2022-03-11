@@ -82,10 +82,10 @@ meta: {}
     document.getElementById("last-workout").innerHTML = daysAgo(new Date(otherFxLifeData["gym"]["time"]))
     document.getElementById("last-meditated").innerHTML = daysAgo(new Date(otherFxLifeData["meditated"]["time"]))
     document.getElementById("data-points").innerHTML = otherFxLifeData["totalAmountOfEntries"]["value"].toLocaleString()
-    document.getElementById("data-entries-count").innerHTML = otherFxLifeData["totalAmountOfEntries"]["value"].toLocaleString() + " Data Entries"
+    document.getElementById("data-entries-count").innerHTML = otherFxLifeData["totalAmountOfEntries"]["value"].toLocaleString() + " data entries"
     document.getElementById("total-computer-time").innerHTML = otherFxLifeData["totalComputerUsageHours"]["value"].toLocaleString() + " hours"
-    document.getElementById("inbox-count").innerHTML = otherFxLifeData["emailsInbox"]["value"].toLocaleString() + " Emails"
-    document.getElementById("trello-count").innerHTML = data["numberOfTodoItems"].toLocaleString() + " Tasks"
+    document.getElementById("inbox-count").innerHTML = otherFxLifeData["emailsInbox"]["value"].toLocaleString() + " emails"
+    document.getElementById("trello-count").innerHTML = data["numberOfTodoItems"].toLocaleString() + " tasks"
 
     // Overview of data sources
     document.getElementById("h-rescuetime").innerHTML = otherFxLifeData["rescue_time"]["value"].toLocaleString()
@@ -323,15 +323,15 @@ meta: {}
       </tr>
       <tr>
         <td>Inbox</td>
-        <td><span class="highlighted blurred" id="inbox-count">40</span></td>
+        <td><span class="highlighted blurred" id="inbox-count">40 emails</span></td>
       </tr>
       <tr>
         <td>Personal Todo Items</td>
-        <td><span class="highlighted blurred" id="trello-count">173 Tasks</span></td>
+        <td><span class="highlighted blurred" id="trello-count">173 tasks</span></td>
       </tr>
       <tr>
         <td>Database size</td>
-        <td><span class="highlighted blurred" id="data-entries-count">380,000 Data Entries</span></td>
+        <td><span class="highlighted blurred" id="data-entries-count">380,000 data entries</span></td>
       </tr>
     </table>
   </div>
