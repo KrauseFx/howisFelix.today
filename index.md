@@ -1,9 +1,7 @@
 ---
 layout: page
-title: whereisfelix.today?
-categories: []
-tags: []
 status: publish
+title: whereisfelix.today?
 type: page
 published: true
 meta: {}

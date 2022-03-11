@@ -16,7 +16,7 @@
 title: Felix Krause
 email: website@krausefx.com
 description: >- # this means to ignore newlines until "baseurl:"
-  whereisfelix.today
+  Felix Krause - KrauseFx
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://whereisfelix.today/" # the base hostname & protocol for your site, e.g. http://example.com
 
