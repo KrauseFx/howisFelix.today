@@ -1777,46 +1777,6 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
     
     
 
-    <div class="graphs-entry" id="graphs-entry-github-contributions">
-      <h3>GitHub Open Source Contributions</h3>
-      <p class="graph-description">
-        GitHub open source contributions visualized using GitHub's own contribution graph. The graphs only count code commits to open source repositories.
-      </p>
-
-      <ul>
-        
-          <li>I started <a href='https://fastlane.tools' target='_blank'>fastlane</a> September 2014, and worked on it until early 2018</li>
-        
-          <li>Early 2018 I started working on <a href='https://github.com/fastlane/ci' target='_blank'>fastlane.ci</a> which slowly got shut down over time by Google</li>
-        
-          <li>January 2019 I decided to leave Google, as fastlane.ci wasn't going anywhere</li>
-        
-          <li>Early 2019 I worked on <a href='https://instapipe.net' target='_blank'>instapipe.net</a> and this very project via <a href='https://github.com/KrauseFx/FxLifeSheet' target='_blank'>FxLifeSheet</a></li>
-        
-          <li>Second half of 2019, until Summer 2021 I worked at Root on commercial software, which doesn't show up on those graphs</li>
-        
-          <li>End of 2021 I resumed work on FxLifeSheet to build this very page</li>
-        
-      </ul>
-
-      <span class="graph-sources">
-        <span class="graph-sources-header">
-          Sources: 
-        </span>
-        GitHub
-      </span>
-
-      <div class="image-container">
-        <img src="graphs/screens/github-contributions.png" class="image-link" alt="GitHub Open Source Contributions" onclick="enlargeImage(this, 'graphs/screens/github-contributions.png', 'GitHub Open Source Contributions')" />
-      </div>
-
-      <span class="graph-date">11 years of data - Last updated on 2022-01-01</span>
-    </div>
-  
-    
-    
-    
-
     <div class="graphs-entry" id="graphs-entry-weather-conditions">
       <h3>Weather Conditions per Year</h3>
       <p class="graph-description">
@@ -1882,7 +1842,7 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
     
 
     <div class="graphs-entry" id="graphs-entry-money-distribution">
-      <h3>Investment Distribution</h3>
+      <h3>Investment Management & Simulations</h3>
       <p class="graph-description">
         Every second week I track my current investments and cash positions. It shows me how to most efficiently re-balance my investments in case they're off track, while also minimizing the occuring trading fees.
       </p>
@@ -1893,7 +1853,7 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
         
           <li>I have a graph that ensures I have the right target distribution of high, medium and low risk positions</li>
         
-          <li>Whenever I take on a potential new project/role, I simulate the various outcome scenarios over the next few years</li>
+          <li><span class='highlighted'>Whenever I take on a potential new project/role, I simulate the various outcome scenarios</span> that could happen over the next few years</li>
         
           <li>For obvious reasons, I can't include more of the graphs and simulations I have available</li>
         
@@ -1907,7 +1867,7 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
       </span>
 
       <div class="image-container">
-        <img src="graphs/screens/money-distribution.png" class="image-link" alt="Investment Distribution" onclick="enlargeImage(this, 'graphs/screens/money-distribution.png', 'Investment Distribution')" />
+        <img src="graphs/screens/money-distribution.png" class="image-link" alt="Investment Management & Simulations" onclick="enlargeImage(this, 'graphs/screens/money-distribution.png', 'Investment Management & Simulations')" />
       </div>
 
       <span class="graph-date">8 years of data - Last updated on 2022-02-09</span>
@@ -1947,6 +1907,46 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">5 years of data - Last updated on 2022-02-09</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-github-contributions">
+      <h3>GitHub Open Source Contributions</h3>
+      <p class="graph-description">
+        GitHub open source contributions visualized using GitHub's own contribution graph. The graphs only count code commits to open source repositories.
+      </p>
+
+      <ul>
+        
+          <li>I started <a href='https://fastlane.tools' target='_blank'>fastlane</a> September 2014, and worked on it until early 2018</li>
+        
+          <li>Early 2018 I started working on <a href='https://github.com/fastlane/ci' target='_blank'>fastlane.ci</a> which slowly got shut down over time by Google</li>
+        
+          <li>January 2019 I decided to leave Google, as fastlane.ci wasn't going anywhere</li>
+        
+          <li>Early 2019 I worked on <a href='https://instapipe.net' target='_blank'>instapipe.net</a> and this very project via <a href='https://github.com/KrauseFx/FxLifeSheet' target='_blank'>FxLifeSheet</a></li>
+        
+          <li>Second half of 2019, until Summer 2021 I worked at Root on commercial software, which doesn't show up on those graphs</li>
+        
+          <li>End of 2021 I resumed work on FxLifeSheet to build this very page</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        GitHub
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/github-contributions.png" class="image-link" alt="GitHub Open Source Contributions" onclick="enlargeImage(this, 'graphs/screens/github-contributions.png', 'GitHub Open Source Contributions')" />
+      </div>
+
+      <span class="graph-date">11 years of data - Last updated on 2022-01-01</span>
     </div>
   
 </div>
