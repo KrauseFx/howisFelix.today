@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data
+title: whereisfelix.today?
 categories: []
 tags: []
 status: publish
@@ -71,6 +71,7 @@ meta: {}
         tr.appendChild(td3)
         document.getElementById("next-cities-table").appendChild(tr)
       }
+      document.getElementById("next-cities-table").style.display = "block"
     }
 
     // Render today's metadata
@@ -2163,7 +2164,7 @@ After having tried various tools available to visualize, I ended up writing my o
     width: 100%;
     background-position: center !important;
     background-size: cover !important;
-    height: 350px;
+    height: 250px;
 
     /* Show loading map by default while loading */
     background: url("/graphs/assets/loading-map.jpg") no-repeat;
@@ -2184,7 +2185,7 @@ After having tried various tools available to visualize, I ended up writing my o
     left: 0;
     right: 0;
     position: absolute;
-    top: 280px;
+    top: 180px;
     z-index: 10 !important;
   }
   #realTimeDataDiv {
@@ -2192,7 +2193,7 @@ After having tried various tools available to visualize, I ended up writing my o
     text-align: center;
     margin-bottom: -20px;
     padding-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 0px;
   }
   .blurred {
     filter: blur(5px);
@@ -2366,6 +2367,7 @@ After having tried various tools available to visualize, I ended up writing my o
     margin-top: -10px;
   }
   #next-cities-table {
+    display: none;
     margin-left: auto;
     max-width: 450px;
     margin-right: auto;
@@ -2383,10 +2385,14 @@ After having tried various tools available to visualize, I ended up writing my o
     font-size: 14px;
     background-color: transparent;
   }
+  #next-cities-table > tr {
+    background-color: transparent !important;
+  }
   #next-cities-table > tr > td {
     color: #669;
     border: none;
-    padding: 9px 30px 10px;
+    padding: 9px 30px 0px;
+    background-color: transparent !important;
   }
   footer {
     margin-top: 30px;
