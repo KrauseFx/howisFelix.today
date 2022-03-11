@@ -168,6 +168,23 @@ meta: {}
       document.getElementById("food-container").style.display = "none"
     }
 
+    // Render the most recent social media photos
+    var photos = data["recentPhotos"]
+    var personalCarousel = document.getElementById("personalCarousel")
+    for (let photoIndex in photos) {
+      let currentPhoto = photos[photoIndex]
+
+      var linkNode = document.createElement("a");
+      linkNode["href"] = currentPhoto["link"] || "https://instagram.com/krausefx"
+      linkNode["target"] = "_blank"
+      var imageNode = document.createElement("span")
+      imageNode["style"] = "background-image: url(" + currentPhoto["url"] + ")"
+      imageNode["alt"] = currentPhoto["text"]
+
+      linkNode.appendChild(imageNode)
+      personalCarousel.appendChild(linkNode)
+    }
+
     document.getElementById("realTimeDataDiv").style.display = "block"
 
     while (document.getElementsByClassName("blurred").length > 0) {
@@ -320,6 +337,11 @@ meta: {}
   </div>
 
   <hr />
+
+  <h2 style="margin-top: -20px;">Most recent photos</h2>
+  <div class="imageCarousel" id="personalCarousel"></div>
+  <hr />
+
   <p style="margin-top: -25px;" class="git-footnote" style="margin-bottom: -10px; margin-top: -20px;">Last code commit: <span id="git-time-ago" class="blurred git-footnote">an hour ago</span></p>
   <h3 id="git-header">
     <a target="_blank" href="" id="git-link" class="blurred">Improve design of graph</a>
@@ -2207,7 +2229,7 @@ After having tried various tools available to visualize, I ended up writing my o
     margin-top: -20px;
   }
   #feels-h {
-    margin-top: -10px;
+    margin-top: -15px;
     margin-bottom: 20px;
   }
   hr {
@@ -2404,6 +2426,30 @@ After having tried various tools available to visualize, I ended up writing my o
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 14px;
+  }
+  .imageCarousel {
+    margin-top: 10px;
+    height: 125px;
+    width: 100%;
+    overflow-y: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .imageCarousel > a > img {
+    height: 120px;
+    width: auto;
+    max-width: none; /* to override page wide attribute */
+    display: inline-block;
+  }
+  #personalCarousel > a > span {
+    /* I didn't spend the time investigating why this is necessary */
+    margin-right: 5px;
+    height: 120px;
+    display: inline-block;
+    width: 120px; /* IG pictures should always be square */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   }
 </style>
 
