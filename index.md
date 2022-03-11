@@ -375,7 +375,7 @@ Currently, I have <b><span id="data-points" class="highlighed">~380,000</span> d
   <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
 </table>
 
-I selected <span class="highlighted">41</span> graphs to show publicly on this page. For privacy reasons, and to prevent any any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">42</span> graphs to show publicly on this page. For privacy reasons, and to prevent any any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 
 
@@ -1801,6 +1801,40 @@ I selected <span class="highlighted">41</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">3 years of data - Last updated on 2022-01-01</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-cold-symptons">
+      <h3>Cold Symptons</h3>
+      <p class="graph-description">
+        Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain.
+      </p>
+
+      <ul>
+        
+          <li>Clearly the cold months of 2019 and 2021 I had significantly more days with cold symptoms</li>
+        
+          <li>Winter 2021 was a full lockdown, I assume this reduced the risk of getting sick</li>
+        
+          <li>October and November 2021 I had bronchitis, without getting the proper treatment</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        Manual
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/cold-symptons.png" class="image-link" alt="Cold Symptons" onclick="enlargeImage(this, 'graphs/screens/cold-symptons.png', 'Cold Symptons')" />
+      </div>
+
+      <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
     </div>
   
     

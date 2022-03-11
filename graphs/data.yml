@@ -523,6 +523,17 @@
   takeaways:
     - "2019 I experienced more cloudy weather than the following years"
   updated: "2022-01-01"
+- id: "cold-symptons"
+  title: "Cold Symptons"
+  source: 
+  - "Manual"
+  years: 2.5
+  description: "Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain."
+  takeaways:
+    - "Clearly the cold months of 2019 and 2021 I had significantly more days with cold symptoms"
+    - "Winter 2021 was a full lockdown, I assume this reduced the risk of getting sick"
+    - "October and November 2021 I had bronchitis, without getting the proper treatment"
+  updated: "2022-01-01"
 - id: "money-distribution"
   title: "Investment Distribution"
   description: "Every second week I track my current investments and cash positions. It shows me how to most efficiently re-balance my investments in case they're off track, while also minimizing the occuring trading fees."
