@@ -2371,8 +2371,7 @@ After having tried various tools available to visualize, I ended up writing my o
   }
   #foodEntriesTable {
     border: none;
-    width: 430px;
-    max-width: 100%;
+    max-width: 430px;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
