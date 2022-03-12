@@ -2493,7 +2493,7 @@ After having tried various tools available to visualize, I ended up writing my o
   }
   .imageCarousel {
     margin-top: 10px;
-    height: 125px;
+    height: 127px; /* this is important to prevent weird scrolling on iOS */
     width: 100%;
     overflow-y: none;
     overflow-x: scroll;
