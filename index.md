@@ -393,11 +393,13 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
 
       <ul>
         
-          <li>Before 2018, the only data used was <a href='https://rescuetime.com' target='_blank'>RescueTime</a> and <a href='https://swarmapp.com' target='_blank'>Foursquare Swarm</a> location data</li>
+          <li>Initially (2014) the only data used was <a href='https://rescuetime.com' target='_blank'>RescueTime</a> and <a href='https://swarmapp.com' target='_blank'>Foursquare Swarm</a> location data</li>
         
-          <li>Once I started the <a href='https://github.com/KrauseFx/FxLifeSheet' target='_blank'>FxLifeSheet project</a>, I manually tracked around 75 data entries every day, ranging from mood, sleep, to fitness inputs</li>
+          <li>Once I started the <a href='https://github.com/KrauseFx/FxLifeSheet' target='_blank'>FxLifeSheet project</a> in April 2019, I manually tracked <span class='highlighted'>75 data entries every day</span>, ranging from mood, sleep, social life, to fitness data</li>
         
           <li>I was able to retrospectively fetch the historic weather data based on my location on a given day</li>
+        
+          <li>I also implemented other import sources, like fetching my historic weight and the number of steps from Apple Health</li>
         
       </ul>
 
@@ -1921,11 +1923,12 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
   
 </div>
 
-<h3 style="margin-top: 15px;">More Information</h3>
+<h3 style="margin-top: 15px;">More Details on how this works</h3>
 
-This project has 3 separate components:
+This project is custom-built for my own personal use, the resulting code is 100% open source on <a href="https://github.com/KrauseFx/FxLifeSheet">KrauseFx/FxLifeSheet</a>.
+There are 3 components to this project:
 
-<b>◦ Database</b>
+<b>&#8226; Database</b>
 
 A timestamp-based key-value database of all data entries powered by Postgres. This allows me to add and remove questions on-the-fly.
 
@@ -1937,7 +1940,9 @@ Each row has a `timestamp`, `key` and `value`.
 - The `key` describes **what** is being recorded (e.g. `"weight"`, `"locationLat"`, `"mood"`). This can be any string, and I can add and remove keys easily on the fly in the [FxLifeSheet configuration file](https://github.com/KrauseFx/FxLifeSheet/blob/master/lifesheet.json) without having to modify the database.
 - The `value` is the actual value being recorded. This can be any number, string, boolean, etc. 
 
-<b>◦ Data Inputs</b>
+Early on in the project I made the decision not to associate an entry to a specific day due to complexities when traveling and time zones, since the idea was just to detect trends using the collected data. It became clear that detecting trends is only a small part of what can be done with the data, so I [wrote a script](https://github.com/KrauseFx/FxLifeSheet/tree/master/ruby_importers/importers/tag_days) to associate each entry to the correct date.
+
+<b>&#8226; Data Inputs</b>
 
 <img src="/graphs/assets/fxlifesheet-questions.png" id="lifesheet-questions" />
 
@@ -1946,7 +1951,7 @@ The [Telegram API](https://core.telegram.org/) is excellent, and even allows you
 
 Additionally I can fill-out date ranges with specific values, for example lockdown periods, and bulking/cutting fitness seasons.
 
-<b>◦ Data Visualizations</b>
+<b>&#8226; Data Visualizations</b>
 
 After having tried various tools available to visualize, I ended up writing my own data analysis layer using Ruby, JavaScript together with [Plotly](https://plotly.com/javascript/). You can find the full source code on [KrauseFx/FxLifeSheet - visual_playground](https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground).
 

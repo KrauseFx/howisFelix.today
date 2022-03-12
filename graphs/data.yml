@@ -3,9 +3,10 @@
   years: 10
   description: "Visualization of the number of data entries in [FxLifeSheet](https://github.com/KrauseFx/FxLifeSheet) over the last 10 years, and where the data came from."
   takeaways:
-  - Before 2018, the only data used was [RescueTime](https://rescuetime.com) and [Foursquare Swarm](https://swarmapp.com) location data
-  - Once I started the [FxLifeSheet project](https://github.com/KrauseFx/FxLifeSheet), I manually tracked around 75 data entries every day, ranging from mood, sleep, to fitness inputs
+  - Initially (2014) the only data used was [RescueTime](https://rescuetime.com) and [Foursquare Swarm](https://swarmapp.com) location data
+  - Once I started the [FxLifeSheet project](https://github.com/KrauseFx/FxLifeSheet) in April 2019, I manually tracked **75 data entries every day**, ranging from mood, sleep, social life, to fitness data
   - I was able to retrospectively fetch the historic weather data based on my location on a given day
+  - I also implemented other import sources, like fetching my historic weight and the number of steps from Apple Health
   updated: "2022-01-01"
   instructions: "    
     SELECT 
