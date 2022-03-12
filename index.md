@@ -226,7 +226,7 @@ meta: {}
 </div>
 
 <div id="realTimeDataDiv">
-  <h2 id="currentCityContainer">Felix is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
+  <h2 id="currentCityContainer"><a id="fx-user-link" href="https://twitter.com/KrauseFx">Felix</a> is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
   <h3 id="isMovingContainer" style="display: none">Felix is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
   <h4 id="nextCityContainer" style="display: none">Leaving for <span id="nextCityText"></span> <span id="nextCityTime"></span></h4>
 
@@ -435,7 +435,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
         
           <li>33% more excited about what's ahead in the future</li>
         
-          <li>31% more likely to drink alcohol that day (partys, good friends and such)</li>
+          <li>31% more likely to drink alcohol that day (parties, good friends and such)</li>
         
           <li>28% more time spent reading or listening to audio books</li>
         
@@ -444,8 +444,6 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
           <li>26% warmer temperature that day</li>
         
           <li>20% more likely to have learned something new that day</li>
-        
-          <li>14% more likely to have eaten veggies</li>
         
           <li><span class='highlighted'>45% less time spent in video & audio calls that day</span></li>
         
@@ -619,7 +617,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
         
           <li>I started my lean bulk (controlled weight gain combined with 5 workouts a week) in August 2020</li>
         
-          <li>My resting heart rate went from 58bpm to 67bpm from August 2020 (<span class='highlighted'>+9bpm</span>) to March 2021 with a weight gain of <span class='highlighted'>+8.5kg</span> (+19lbs)</li>
+          <li>My resting heart rate went from 58bpm to 67bpm (<span class='highlighted'>+9bpm</span>) from August 2020 to March 2021 with a weight gain of <span class='highlighted'>+8.5kg</span> (+19lbs) as part of a controlled lean-bulk combined with a 5-day/week workout routine</li>
         
           <li>The spike in resting heart rate in July & August 2021 was due to bars and nightclubs opening up again in Austria</li>
         
@@ -2556,6 +2554,10 @@ After having tried various tools available to visualize, I ended up writing my o
       float: none;
       margin-top: 10px;
     }
+  }
+  #fx-user-link {
+    color: #111 !important;
+    text-decoration: none;
   }
 </style>
 

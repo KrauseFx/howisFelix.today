@@ -226,8 +226,8 @@ meta: {}
 </div>
 
 <div id="realTimeDataDiv">
-  <h2 id="currentCityContainer">Felix is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
-  <h3 id="isMovingContainer" style="display: none">Felix is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
+  <h2 id="currentCityContainer"><a id="fx-user-link" href="https://twitter.com/KrauseFx">Felix</a> is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
+  <h3 id="isMovingContainer" style="display: none"><a id="fx-user-link" href="https://twitter.com/KrauseFx">Felix</a> is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
   <h4 id="nextCityContainer" style="display: none">Leaving for <span id="nextCityText"></span> <span id="nextCityTime"></span></h4>
 
   <table id="next-cities-table" cellspacing="0" cellpadding="0">
@@ -1056,6 +1056,10 @@ After having tried various tools available to visualize, I ended up writing my o
       float: none;
       margin-top: 10px;
     }
+  }
+  #fx-user-link {
+    color: #111 !important;
+    text-decoration: none;
   }
 </style>
 
