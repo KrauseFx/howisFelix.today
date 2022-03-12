@@ -2520,3 +2520,12 @@ After having tried various tools available to visualize, I ended up writing my o
 <div class="footer-col footer-col-3">
   {% include newsletter.html %}
 </div>
+
+<script type="text/javascript">
+  var links = document.links;
+  for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+      links[i].target = '_blank';
+    } 
+  }
+</script>
