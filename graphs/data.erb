@@ -357,6 +357,17 @@ Every single day for the last 2.5 years I tracked over 100 different data types 
 
 The goal of this project was to answer a handful of questions about my life, things like
 
+<div class="social-media-list" style="float: right">
+  <p>
+    <b>Ideas or suggestions?</b><br />
+    <span class="ideas-subtitle">I'd love to hear from you!</span>
+  </p>
+  <ul>
+    <li>{% include icon-twitter.html username="KrauseFx" %}</li>
+    <li>{% include icon-instagram.html %}</li>
+  </ul>
+</div>
+
 - How does living in different cities affect other factors like fitness, productivity and happiness?
 - How does sleep affect my day, my fitness level, and happiness?
 - How does the weather, and the different seasons affect my life?
@@ -442,6 +453,7 @@ Each row has a `timestamp`, `key` and `value`.
 
 Early on in the project I made the decision not to associate an entry to a specific day due to complexities when traveling and time zones, since the idea was just to detect trends using the collected data. It became clear that detecting trends is only a small part of what can be done with the data, so I [wrote a script](https://github.com/KrauseFx/FxLifeSheet/tree/master/ruby_importers/importers/tag_days) to associate each entry to the correct date.
 
+
 <b>&#8226; Data Inputs</b>
 
 <img src="/graphs/assets/fxlifesheet-questions.png" id="lifesheet-questions" />
@@ -454,6 +466,8 @@ Additionally I can fill-out date ranges with specific values, for example lockdo
 <b>&#8226; Data Visualizations</b>
 
 After having tried various tools available to visualize, I ended up writing my own data analysis layer using Ruby, JavaScript together with [Plotly](https://plotly.com/javascript/). You can find the full source code on [KrauseFx/FxLifeSheet - visual_playground](https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground).
+
+<hr style="margin-top: 20px;" />
 
 <footer>
   <p>
@@ -469,6 +483,19 @@ After having tried various tools available to visualize, I ended up writing my o
       How do I travel? <a href="https://krausefx.com/blog/going-nomad" target="_blank">I live out of a suitcase</a>
   </p>
 </footer>
+
+<div class="social-media-list" style="float: left; margin-top: -115px;">
+  <p>
+    <b>Ideas or suggestions?</b><br />
+    <span class="ideas-subtitle">I'd love to hear from you!</span>
+  </p>
+  <ul>
+    <li>{% include icon-twitter.html username="KrauseFx" %}</li>
+    <li>{% include icon-instagram.html %}</li>
+  </ul>
+</div>
+<br /><br />
+<hr />
 
 <div id="enlargedImageContainer" style="display: none">
   <div id="enlargedImageContainerBackground"></div>
@@ -1046,7 +1073,7 @@ After having tried various tools available to visualize, I ended up writing my o
     }
   }
   #lifesheet-questions {
-    height: 480px;
+    height: 510px;
     float: right;
     margin-left: 10px;
     margin-top: -70px;
@@ -1060,6 +1087,50 @@ After having tried various tools available to visualize, I ended up writing my o
   #fx-user-link {
     color: #111 !important;
     text-decoration: none;
+  }
+  .social-media-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 0px;
+    width: auto;
+    height: auto;
+  }
+  .social-media-list p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  .social-media-list ul {
+    list-style: none;
+    margin-left: 0px;
+  }
+  .social-media-list li {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .social-media-list a {
+    text-decoration: none;
+  }
+  .social-media-list span {
+    vertical-align: middle;
+  }
+  .social-media-list svg {
+    color: #353535 !important;
+  }
+  .icon > svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .icon > svg path {
+    fill: #828282;
+  }
+  .social-media-list .icon {
+    padding-right: 5px;
+  }
+  .ideas-subtitle {
+    color: #666;
   }
 </style>
 
