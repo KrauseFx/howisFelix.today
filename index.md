@@ -1939,9 +1939,10 @@ Each row has a `timestamp`, `key` and `value`.
 
 <b>◦ Data Inputs</b>
 
-<img src="/graphs/assets/fxlifesheet-questions.png" style="height: 480px; float: right; margin-left: 10px; margin-top: -70px;" />
+<img src="/graphs/assets/fxlifesheet-questions.png" id="lifesheet-questions" />
 
 Multiple times a day, I manually answer questions [FxLifeSheet](https://github.com/KrauseFx/FxLifeSheet) sends me via a Telegram bot, which range from fitness-related questions (e.g. nutrition, exercise, sleep, etc.) to questions about my life (e.g. how I'm feeling, how much time I spend on social media, etc.).
+The [Telegram API](https://core.telegram.org/) is excellent, and even allows you to customize the keyboard to have pre-defined replies based on the question asked.
 
 Additionally I can fill-out date ranges with specific values, for example lockdown periods, and bulking/cutting fitness seasons.
 
@@ -2537,6 +2538,18 @@ After having tried various tools available to visualize, I ended up writing my o
     }
     #data-sources-overview th {
       font-size: 90%;
+    }
+  }
+  #lifesheet-questions {
+    height: 480px;
+    float: right;
+    margin-left: 10px;
+    margin-top: -70px;
+  }
+  @media screen and (max-width: 800px) {
+    #lifesheet-questions {
+      float: none;
+      margin-top: 10px;
     }
   }
 </style>
