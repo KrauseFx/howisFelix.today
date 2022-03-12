@@ -375,7 +375,7 @@ Currently, I have <b><span id="data-points" class="highlighed">~380,000</span> d
   <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
 </table>
 
-I selected <span class="highlighted">43</span> graphs to show publicly on this page. For privacy reasons, and to prevent any any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">42</span> graphs to show publicly on this page. For privacy reasons, and to prevent any any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 
 
@@ -1013,8 +1013,6 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
 
       <ul>
         
-          <li>Unless there are social obligations, or there is a party, I usually drink 0 alcoholic drinks</li>
-        
           <li>Friday and Saturday nights are clearly visible on those graphs</li>
         
           <li>2021 and summer/winter of 2019 also show the Wednesday night party in Vienna</li>
@@ -1050,6 +1048,8 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
       </p>
 
       <ul>
+        
+          <li>Unless there are social obligations, or there is a party, I usually drink 0 alcoholic drinks</li>
         
           <li>In May 2019, the 0 bar is rendered to be 55%, meaning on 55% days of that month I didn't drink any alcohol</li>
         
@@ -1509,42 +1509,6 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
     
     
 
-    <div class="graphs-entry" id="graphs-entry-season-winter">
-      <h3>How does Winter affect my Life?</h3>
-      <p class="graph-description">
-        Winter (being from 21st Dec to 20th March) has the following effects on my life:
-      </p>
-
-      <ul>
-        
-          <li>Online shopping time going up by 100%, most likely due to the last Winters having spent in lockdown</li>
-        
-          <li><span class='highlighted'>Chances of having cold symptons goes up 45%</span></li>
-        
-          <li>35% less likely to take a freezing cold shower</li>
-        
-          <li>Unsurprisingly, I'm exposed to less solar energy in Winter, make sure to get enough Vitamin D</li>
-        
-      </ul>
-
-      <span class="graph-sources">
-        <span class="graph-sources-header">
-          Sources: 
-        </span>
-        Manually
-      </span>
-
-      <div class="image-container">
-        <img src="graphs/screens/season-winter.png" class="image-link" alt="How does Winter affect my Life?" onclick="enlargeImage(this, 'graphs/screens/season-winter.png', 'How does Winter affect my Life?')" />
-      </div>
-
-      <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
-    </div>
-  
-    
-    
-    
-
     <div class="graphs-entry" id="graphs-entry-season-summer">
       <h3>How does Summer affect my Life?</h3>
       <p class="graph-description">
@@ -1580,6 +1544,42 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
 
       <div class="image-container">
         <img src="graphs/screens/season-summer.png" class="image-link" alt="How does Summer affect my Life?" onclick="enlargeImage(this, 'graphs/screens/season-summer.png', 'How does Summer affect my Life?')" />
+      </div>
+
+      <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-season-winter">
+      <h3>How does Winter affect my Life?</h3>
+      <p class="graph-description">
+        Winter (being from 21st Dec to 20th March) has the following effects on my life:
+      </p>
+
+      <ul>
+        
+          <li>Online shopping time going up by 100%, most likely due to the last Winters having spent in lockdown</li>
+        
+          <li><span class='highlighted'>Chances of having cold symptons goes up 45%</span></li>
+        
+          <li>35% less likely to take a freezing cold shower</li>
+        
+          <li>Unsurprisingly, I'm exposed to less solar energy in Winter, make sure to get enough Vitamin D</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        Manually
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/season-winter.png" class="image-link" alt="How does Winter affect my Life?" onclick="enlargeImage(this, 'graphs/screens/season-winter.png', 'How does Winter affect my Life?')" />
       </div>
 
       <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
@@ -1649,33 +1649,19 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
     
     
 
-    <div class="graphs-entry" id="graphs-entry-weather-temperature-buckets">
-      <h3>How does High Temperature affect my Life?</h3>
+    <div class="graphs-entry" id="graphs-entry-cold-symptons">
+      <h3>Cold Symptons</h3>
       <p class="graph-description">
-        On days with a maximum temperature of more than 26 Celsius (78.8 Fahrenheit), the following other factors were affected
+        Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain.
       </p>
 
       <ul>
         
-          <li>80% more likely to take a freezing cold shower</li>
+          <li>Clearly the cold months of 2019 and 2021 I had significantly more days with cold symptoms</li>
         
-          <li>37% more likely to hit the gym</li>
+          <li>Winter 2021 was a full lockdown, I assume this reduced the risk of getting sick</li>
         
-          <li>26% more daily steps</li>
-        
-          <li>20% more alcoholic beverages</li>
-        
-          <li>15% more likely to go out in the evening</li>
-        
-          <li>13% less likely to take a nap</li>
-        
-          <li>20% less time in a code editor</li>
-        
-          <li>21% less likely to be sick</li>
-        
-          <li>Generally lower stress/anxiety levels</li>
-        
-          <li>100% less likely to be in a COVID related lockdown</li>
+          <li>October and November 2021 I had bronchitis, without getting the proper treatment</li>
         
       </ul>
 
@@ -1683,11 +1669,11 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
         <span class="graph-sources-header">
           Sources: 
         </span>
-        Visual Crossing historic weather data, Manually
+        Manually
       </span>
 
       <div class="image-container">
-        <img src="graphs/screens/weather-temperature-buckets.png" class="image-link" alt="How does High Temperature affect my Life?" onclick="enlargeImage(this, 'graphs/screens/weather-temperature-buckets.png', 'How does High Temperature affect my Life?')" />
+        <img src="graphs/screens/cold-symptons.png" class="image-link" alt="Cold Symptons" onclick="enlargeImage(this, 'graphs/screens/cold-symptons.png', 'Cold Symptons')" />
       </div>
 
       <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
@@ -1777,15 +1763,33 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
     
     
 
-    <div class="graphs-entry" id="graphs-entry-weather-conditions">
-      <h3>Weather Conditions per Year</h3>
+    <div class="graphs-entry" id="graphs-entry-weather-temperature-buckets">
+      <h3>How does High Temperature affect my Life?</h3>
       <p class="graph-description">
-        Historic weather data based on the location I was at on that day based on my Swarm check-ins.
+        On days with a maximum temperature of more than 26 Celsius (78.8 Fahrenheit), the following other factors were affected
       </p>
 
       <ul>
         
-          <li>2019 I experienced more cloudy weather than the following years</li>
+          <li>80% more likely to take a freezing cold shower</li>
+        
+          <li>37% more likely to hit the gym</li>
+        
+          <li>26% more daily steps</li>
+        
+          <li>20% more alcoholic beverages</li>
+        
+          <li>15% more likely to go out in the evening</li>
+        
+          <li>13% less likely to take a nap</li>
+        
+          <li>20% less time in a code editor</li>
+        
+          <li>21% less likely to be sick</li>
+        
+          <li>Generally lower stress/anxiety levels</li>
+        
+          <li>100% less likely to be in a COVID related lockdown</li>
         
       </ul>
 
@@ -1793,33 +1797,39 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
         <span class="graph-sources-header">
           Sources: 
         </span>
-        Visual Crossing historic weather data, Swarm
+        Visual Crossing historic weather data, Manually
       </span>
 
       <div class="image-container">
-        <img src="graphs/screens/weather-conditions.png" class="image-link" alt="Weather Conditions per Year" onclick="enlargeImage(this, 'graphs/screens/weather-conditions.png', 'Weather Conditions per Year')" />
+        <img src="graphs/screens/weather-temperature-buckets.png" class="image-link" alt="How does High Temperature affect my Life?" onclick="enlargeImage(this, 'graphs/screens/weather-temperature-buckets.png', 'How does High Temperature affect my Life?')" />
       </div>
 
-      <span class="graph-date">3 years of data - Last updated on 2022-01-01</span>
+      <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
     </div>
   
     
     
     
 
-    <div class="graphs-entry" id="graphs-entry-cold-symptons">
-      <h3>Cold Symptons</h3>
+    <div class="graphs-entry" id="graphs-entry-github-contributions">
+      <h3>GitHub Open Source Contributions</h3>
       <p class="graph-description">
-        Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain.
+        GitHub open source contributions visualized using GitHub's own contribution graph. The graphs only count code commits to open source repositories.
       </p>
 
       <ul>
         
-          <li>Clearly the cold months of 2019 and 2021 I had significantly more days with cold symptoms</li>
+          <li>I started <a href='https://fastlane.tools' target='_blank'>fastlane</a> September 2014, and worked on it until early 2018</li>
         
-          <li>Winter 2021 was a full lockdown, I assume this reduced the risk of getting sick</li>
+          <li>Early 2018 I started working on <a href='https://github.com/fastlane/ci' target='_blank'>fastlane.ci</a> which slowly got shut down over time by Google</li>
         
-          <li>October and November 2021 I had bronchitis, without getting the proper treatment</li>
+          <li>January 2019 I decided to leave Google, as fastlane.ci wasn't going anywhere</li>
+        
+          <li>Early 2019 I worked on <a href='https://instapipe.net' target='_blank'>instapipe.net</a> and this very project via <a href='https://github.com/KrauseFx/FxLifeSheet' target='_blank'>FxLifeSheet</a></li>
+        
+          <li>Second half of 2019, until Summer 2021 I worked at Root on commercial software, which doesn't show up on those graphs</li>
+        
+          <li>End of 2021 I resumed work on FxLifeSheet to build this very page</li>
         
       </ul>
 
@@ -1827,14 +1837,14 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
         <span class="graph-sources-header">
           Sources: 
         </span>
-        Manually
+        GitHub
       </span>
 
       <div class="image-container">
-        <img src="graphs/screens/cold-symptons.png" class="image-link" alt="Cold Symptons" onclick="enlargeImage(this, 'graphs/screens/cold-symptons.png', 'Cold Symptons')" />
+        <img src="graphs/screens/github-contributions.png" class="image-link" alt="GitHub Open Source Contributions" onclick="enlargeImage(this, 'graphs/screens/github-contributions.png', 'GitHub Open Source Contributions')" />
       </div>
 
-      <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
+      <span class="graph-date">11 years of data - Last updated on 2022-01-01</span>
     </div>
   
     
@@ -1907,46 +1917,6 @@ I selected <span class="highlighted">43</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">5 years of data - Last updated on 2022-02-09</span>
-    </div>
-  
-    
-    
-    
-
-    <div class="graphs-entry" id="graphs-entry-github-contributions">
-      <h3>GitHub Open Source Contributions</h3>
-      <p class="graph-description">
-        GitHub open source contributions visualized using GitHub's own contribution graph. The graphs only count code commits to open source repositories.
-      </p>
-
-      <ul>
-        
-          <li>I started <a href='https://fastlane.tools' target='_blank'>fastlane</a> September 2014, and worked on it until early 2018</li>
-        
-          <li>Early 2018 I started working on <a href='https://github.com/fastlane/ci' target='_blank'>fastlane.ci</a> which slowly got shut down over time by Google</li>
-        
-          <li>January 2019 I decided to leave Google, as fastlane.ci wasn't going anywhere</li>
-        
-          <li>Early 2019 I worked on <a href='https://instapipe.net' target='_blank'>instapipe.net</a> and this very project via <a href='https://github.com/KrauseFx/FxLifeSheet' target='_blank'>FxLifeSheet</a></li>
-        
-          <li>Second half of 2019, until Summer 2021 I worked at Root on commercial software, which doesn't show up on those graphs</li>
-        
-          <li>End of 2021 I resumed work on FxLifeSheet to build this very page</li>
-        
-      </ul>
-
-      <span class="graph-sources">
-        <span class="graph-sources-header">
-          Sources: 
-        </span>
-        GitHub
-      </span>
-
-      <div class="image-container">
-        <img src="graphs/screens/github-contributions.png" class="image-link" alt="GitHub Open Source Contributions" onclick="enlargeImage(this, 'graphs/screens/github-contributions.png', 'GitHub Open Source Contributions')" />
-      </div>
-
-      <span class="graph-date">11 years of data - Last updated on 2022-01-01</span>
     </div>
   
 </div>

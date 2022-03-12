@@ -231,7 +231,6 @@
   years: 2.5
   description: "Alcoholic drinks per day. Days with no data are rendered as white"
   takeaways:
-    - "Unless there are social obligations, or there is a party, I usually drink 0 alcoholic drinks"
     - "Friday and Saturday nights are clearly visible on those graphs"
     - "2021 and summer/winter of 2019 also show the Wednesday night party in Vienna"
     - "Q2 and Q4 2020 clearly show the COVID lockdowns, as well as Q2 2021"
@@ -245,6 +244,7 @@
   years: 2.5
   description: "Each bar represents a month, the graph shows the number of alcoholic beverages on a given day, with '5' being 5 or more drinks. "
   takeaways:
+    - "Unless there are social obligations, or there is a party, I usually drink 0 alcoholic drinks"
     - In May 2019, the 0 bar is rendered to be 55%, meaning on 55% days of that month I didn't drink any alcohol
     - July 2021 Austrian night life was fully open up again, with most COVID restrictions being lifted
   instructions: "github_style.html, alcoholIntake key"
@@ -412,19 +412,6 @@
   - Over the last 2.5 years I actually never felt isolated, therefore there is no entry for the value '0'
   updated: "2022-01-01"
   instructions: "/pie_chart -> socializing"
-- id: "season-winter"
-  title: "How does Winter affect my Life?"
-  source:
-  - "Manually"
-  years: 2.5
-  description: "Winter (being from 21st Dec to 20th March) has the following effects on my life:"
-  takeaways:
-  - "Online shopping time going up by 100%, most likely due to the last Winters having spent in lockdown"
-  - "**Chances of having cold symptons goes up 45%**"
-  - "35% less likely to take a freezing cold shower"
-  - "Unsurprisingly, I'm exposed to less solar energy in Winter, make sure to get enough Vitamin D"
-  updated: "2022-01-01"
-  instructions: "Bucket by dateSeasonIsWinter"
 - id: "season-summer"
   title: "How does Summer affect my Life?"
   source:
@@ -442,6 +429,20 @@
   - 30% less likely to have bad dreams
   updated: "2022-01-01"
   instructions: "Bucket by dateSeasonIsSummer"
+- id: "season-winter"
+  title: "How does Winter affect my Life?"
+  source:
+  - "Manually"
+  years: 2.5
+  description: "Winter (being from 21st Dec to 20th March) has the following effects on my life:"
+  takeaways:
+  - "Online shopping time going up by 100%, most likely due to the last Winters having spent in lockdown"
+  - "**Chances of having cold symptons goes up 45%**"
+  - "35% less likely to take a freezing cold shower"
+  - "Unsurprisingly, I'm exposed to less solar energy in Winter, make sure to get enough Vitamin D"
+  updated: "2022-01-01"
+  instructions: "Bucket by dateSeasonIsWinter"
+
 - id: "countries"
   title: "Days spent in each Country"
   years: 4
@@ -453,7 +454,6 @@
   - Traveling without a stop home for more than 3 weeks gets exhausting for me, I prefer doing more shorter travels instead
   updated: "2022-01-01"
   instructions: "/pie_chart -> locationInfoCountry"
-
 - id: "manual-living-style-years"
   title: "Living Style"
   source: 
@@ -462,26 +462,17 @@
   description: "From late 2017 to early 2020 I lived without a permanent home address as a [digital nomad](/blog/one-year-nomad), staying at various Airbnbs or taking over a few weeks of a lease from a friend"
   instructions: "pie_chart.html livingStyle key"
   updated: "2022-01-01"
-- id: "weather-temperature-buckets"
-  title: "How does High Temperature affect my Life?"
-  source:
-  - "Visual Crossing historic weather data"
+- id: "cold-symptons"
+  title: "Cold Symptons"
+  source: 
   - "Manually"
   years: 2.5
-  description: "On days with a maximum temperature of more than 26 Celsius (78.8 Fahrenheit), the following other factors were affected"
+  description: "Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain."
   takeaways:
-  - "80% more likely to take a freezing cold shower"
-  - "37% more likely to hit the gym"
-  - "26% more daily steps"
-  - "20% more alcoholic beverages"
-  - "15% more likely to go out in the evening"
-  - "13% less likely to take a nap"
-  - "20% less time in a code editor"
-  - "21% less likely to be sick"
-  - "Generally lower stress/anxiety levels"
-  - "100% less likely to be in a COVID related lockdown"
+    - "Clearly the cold months of 2019 and 2021 I had significantly more days with cold symptoms"
+    - "Winter 2021 was a full lockdown, I assume this reduced the risk of getting sick"
+    - "October and November 2021 I had bronchitis, without getting the proper treatment"
   updated: "2022-01-01"
-  instructions: "frontend.html bucket by weatherTemperatureMax by > 25 degrees"
 - id: "day-is-weekend"
   title: "What are Weekends like?"
   source:
@@ -513,27 +504,52 @@
     - "December 2019 I spent in Columbus, Ohio, being the coldest week of the year"
   instructions: "github_style.html, set maximal value to 30, screenshot all 3 years"
   updated: "2022-01-01"
-- id: "weather-conditions"
-  title: "Weather Conditions per Year"
-  source: 
+# - id: "weather-conditions"
+#   title: "Weather Conditions per Year"
+#   source: 
+#   - "Visual Crossing historic weather data"
+#   - "Swarm"
+#   years: 3
+#   description: "Historic weather data based on the location I was at on that day based on my Swarm check-ins."
+#   takeaways:
+#     - "2019 I experienced more cloudy weather than the following years"
+#   updated: "2022-01-01"
+- id: "weather-temperature-buckets"
+  title: "How does High Temperature affect my Life?"
+  source:
   - "Visual Crossing historic weather data"
-  - "Swarm"
-  years: 3
-  description: "Historic weather data based on the location I was at on that day based on my Swarm check-ins."
-  takeaways:
-    - "2019 I experienced more cloudy weather than the following years"
-  updated: "2022-01-01"
-- id: "cold-symptons"
-  title: "Cold Symptons"
-  source: 
   - "Manually"
   years: 2.5
-  description: "Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain."
+  description: "On days with a maximum temperature of more than 26 Celsius (78.8 Fahrenheit), the following other factors were affected"
   takeaways:
-    - "Clearly the cold months of 2019 and 2021 I had significantly more days with cold symptoms"
-    - "Winter 2021 was a full lockdown, I assume this reduced the risk of getting sick"
-    - "October and November 2021 I had bronchitis, without getting the proper treatment"
+  - "80% more likely to take a freezing cold shower"
+  - "37% more likely to hit the gym"
+  - "26% more daily steps"
+  - "20% more alcoholic beverages"
+  - "15% more likely to go out in the evening"
+  - "13% less likely to take a nap"
+  - "20% less time in a code editor"
+  - "21% less likely to be sick"
+  - "Generally lower stress/anxiety levels"
+  - "100% less likely to be in a COVID related lockdown"
   updated: "2022-01-01"
+  instructions: "frontend.html bucket by weatherTemperatureMax by > 25 degrees"
+- id: "github-contributions"
+  title: "GitHub Open Source Contributions"
+  source: 
+  - "GitHub"
+  years: 11
+  description: "GitHub open source contributions visualized using GitHub's own contribution graph. The graphs only count code commits to open source repositories."
+  takeaways:
+  - I started [fastlane](https://fastlane.tools) September 2014, and worked on it until early 2018
+  - Early 2018 I started working on [fastlane.ci](https://github.com/fastlane/ci) which slowly got shut down over time by Google
+  - January 2019 I decided to leave Google, as fastlane.ci wasn't going anywhere
+  - Early 2019 I worked on [instapipe.net](https://instapipe.net) and this very project via [FxLifeSheet](https://github.com/KrauseFx/FxLifeSheet)
+  - Second half of 2019, until Summer 2021 I worked at Root on commercial software, which doesn't show up on those graphs
+  - End of 2021 I resumed work on FxLifeSheet to build this very page
+  instructions: "Manually screenshot those years"
+  updated: "2022-01-01"
+
 - id: "money-distribution"
   title: "Investment Management & Simulations"
   description: "Every second week I track my current investments and cash positions. It shows me how to most efficiently re-balance my investments in case they're off track, while also minimizing the occuring trading fees."
@@ -561,18 +577,3 @@
   - Having an End-Of-Year summary from your credit card provider, and always using your card when possible, is a great way to get those numbers
   - Creating this chart is still a lot of work, as you have to keep in mind that some expenses are not solely yours, but you might have covered for a group (e.g. booked a larger Airbnb), or got reimbursed
   updated: "2022-02-09"
-- id: "github-contributions"
-  title: "GitHub Open Source Contributions"
-  source: 
-  - "GitHub"
-  years: 11
-  description: "GitHub open source contributions visualized using GitHub's own contribution graph. The graphs only count code commits to open source repositories."
-  takeaways:
-  - I started [fastlane](https://fastlane.tools) September 2014, and worked on it until early 2018
-  - Early 2018 I started working on [fastlane.ci](https://github.com/fastlane/ci) which slowly got shut down over time by Google
-  - January 2019 I decided to leave Google, as fastlane.ci wasn't going anywhere
-  - Early 2019 I worked on [instapipe.net](https://instapipe.net) and this very project via [FxLifeSheet](https://github.com/KrauseFx/FxLifeSheet)
-  - Second half of 2019, until Summer 2021 I worked at Root on commercial software, which doesn't show up on those graphs
-  - End of 2021 I resumed work on FxLifeSheet to build this very page
-  instructions: "Manually screenshot those years"
-  updated: "2022-01-01"
