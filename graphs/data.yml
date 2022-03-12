@@ -415,7 +415,7 @@
 - id: "season-winter"
   title: "How does Winter affect my Life?"
   source:
-  - "Manual"
+  - "Manually"
   years: 2.5
   description: "Winter (being from 21st Dec to 20th March) has the following effects on my life:"
   takeaways:
@@ -428,7 +428,7 @@
 - id: "season-summer"
   title: "How does Summer affect my Life?"
   source:
-  - "Manual"
+  - "Manually"
   years: 2.5
   description: "Summer (being from 21st June to 23rd September) has the following effects on my life:"
   takeaways:
@@ -485,7 +485,7 @@
 - id: "day-is-weekend"
   title: "What are Weekends like?"
   source:
-  - "Manual"
+  - "Manually"
   years: 2.5
   description: "Weekends for me naturally involve less working time, more going out, and social interactions, as well as visiting family memebers outside the city"
   takeaways:
@@ -526,7 +526,7 @@
 - id: "cold-symptons"
   title: "Cold Symptons"
   source: 
-  - "Manual"
+  - "Manually"
   years: 2.5
   description: "Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain."
   takeaways:
