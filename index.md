@@ -2009,16 +2009,20 @@ After having tried various tools available to visualize, I ended up writing my o
 
     alignArrowKeys(node.parentElement.parentElement);
 
-    node.parentElement.parentElement.scrollIntoView();
-    window.scrollBy({ top: -15 });
-
     // If we have a small screen, we also want to immediately use full-screen mode
-    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-    if (width < 800) {
-      showFullScreen(img, title);
+    if (useMobileUI()) { 
+      showFullScreen(img, title); 
+    } else {
+      node.parentElement.parentElement.scrollIntoView();
+      window.scrollBy({ top: -15 });
     }
 
     lastNode = node.parentElement.parentElement;
+  }
+
+  function useMobileUI() {
+    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    return width < 800;
   }
 
   function alignArrowKeys(node) {
