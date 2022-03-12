@@ -375,7 +375,7 @@ Currently, I have <b><span id="data-points" class="highlighed">~380,000</span> d
   <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
 </table>
 
-I selected <span class="highlighted">42</span> graphs to show publicly on this page. For privacy reasons, and to prevent any any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">42</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 
 
@@ -534,7 +534,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-life-in-weeks">
       <h3>My Life in Weeks</h3>
       <p class="graph-description">
-        Inspired by <a href='https://waitbutwhy.com/2014/05/life-weeks.html' target='_blank'>Your Life in Weeks by WaitButWhy</a>, I use Google Sheets to visualize every week of my life, with little notes on what city/country I was at, and other life events that have happened.
+        Inspired by <a href='https://waitbutwhy.com/2014/05/life-weeks.html' target='_blank'>Your Life in Weeks by WaitButWhy</a>, I use Google Sheets to visualize every week of my life, with little notes on what city/country I was in, and other life events that have happened.
       </p>
 
       <ul>
@@ -610,7 +610,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-weight-sleeping-hr">
       <h3>Correlation: Weight and Resting Heart Rate</h3>
       <p class="graph-description">
-        This graph clearly shows the correlation between my body weight and my sleeping/resting heart rate. The resting heart rate is measured by the <a href='https://www.withings.com/us/en/scanwatch' target='_blank'>Withings Scanwatch</a> while sleeping, and indicates how hard your heart has to work while not being active. Generally the lower the resting heart rate, the better.
+        This graph clearly shows the correlation between my body weight and my sleeping/resting heart rate. The resting heart rate is measured by the <a href='https://www.withings.com/us/en/scanwatch' target='_blank'>Withings ScanWatch</a> while sleeping, and indicates how hard your heart has to work while not being active. Generally the lower the resting heart rate, the better.
       </p>
 
       <ul>
@@ -631,7 +631,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
         <span class="graph-sources-header">
           Sources: 
         </span>
-        Withings Scanwatch, Withings Scale
+        Withings ScanWatch, Withings Scale
       </span>
 
       <div class="image-container">
@@ -646,7 +646,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     
 
     <div class="graphs-entry" id="graphs-entry-healthy">
-      <h3>How healthy was I over the Years?</h3>
+      <h3>How healthy have I been over the Years?</h3>
       <p class="graph-description">
         Every day I answered the question on how healthy I felt. In the graph, the yellow color indicates that I felt a little under the weather, not sick per se. Red means I was sick and had to stay home. Green means I felt energized and healthy.
       </p>
@@ -671,7 +671,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
       </span>
 
       <div class="image-container">
-        <img src="graphs/screens/healthy.png" class="image-link" alt="How healthy was I over the Years?" onclick="enlargeImage(this, 'graphs/screens/healthy.png', 'How healthy was I over the Years?')" />
+        <img src="graphs/screens/healthy.png" class="image-link" alt="How healthy have I been over the Years?" onclick="enlargeImage(this, 'graphs/screens/healthy.png', 'How healthy have I been over the Years?')" />
       </div>
 
       <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
@@ -812,7 +812,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-swarm-cities-top">
       <h3>Most visited POIs, grouped by City</h3>
       <p class="graph-description">
-        Each time I checked into a place (e.g. Coffee, Restaurant, Airport, Gym) on <a href='https://swarmapp.com' target='_blank'>Foursquare Swarm</a> at a given city, this is tracked as a single entry.
+        Each time I did a check-in at a place (e.g. Coffee, Restaurant, Airport, Gym) on <a href='https://swarmapp.com' target='_blank'>Foursquare Swarm</a> at a given city, this is tracked as a single entry.
       </p>
 
       <ul>
@@ -1114,7 +1114,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-macros">
       <h3>Food Tracking - Macros</h3>
       <p class="graph-description">
-        On weeks where I have a routine (not traveling), I track most my meals. Whenever I scale my food, I try to guess the weight before to become better at estimating portion sizes.
+        On weeks where I have a routine (not traveling), I track most of my meals. Whenever I scale my food, I try to guess the weight before to become better at estimating portion sizes.
       </p>
 
       <ul>
@@ -1150,7 +1150,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-manual-gym-visits-grouped">
       <h3>Gym Workouts grouped by Month</h3>
       <p class="graph-description">
-        Percantage of days I went to the gym
+        Percentage of days I went to the gym
       </p>
 
       <ul>
@@ -1187,7 +1187,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
 
       <ul>
         
-          <li>During times where fitness isn't high up on my priority list, I usually switch to maintainance</li>
+          <li>During times where fitness isn't high up on my priority list, I usually switch to maintenance</li>
         
           <li>During a cut, I have a slight kcal deficit of about 300kcal, to not negatively impact the rest of my life</li>
         
@@ -1199,7 +1199,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
         
           <li>Brown = Bulk</li>
         
-          <li>Blue = Maintainance</li>
+          <li>Blue = Maintenance</li>
         
       </ul>
 
@@ -1349,7 +1349,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
 
       <ul>
         
-          <li>65% more likely to have cold symptons</li>
+          <li>65% more likely to have cold symptoms</li>
         
           <li>60% more likely to have headache</li>
         
@@ -1485,7 +1485,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
         
           <li>End of July 2020 Austria opened up most social venues again, bringing this graph back to an ideal level again</li>
         
-          <li>December 2019 I was working remotely from Buenos Aires, however got a pretty bad cold. Being sick in a remote city wasn't the best feeling</li>
+          <li>December 2019 I was working remotely from Buenos Aires, however I got a pretty bad cold. Being sick in a remote city wasn't the best feeling</li>
         
           <li>Over the last 2.5 years I actually never felt isolated, therefore there is no entry for the value '0'</li>
         
@@ -1563,7 +1563,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
         
           <li>Online shopping time going up by 100%, most likely due to the last Winters having spent in lockdown</li>
         
-          <li><span class='highlighted'>Chances of having cold symptons goes up 45%</span></li>
+          <li><span class='highlighted'>Chances of having cold symptoms goes up 45%</span></li>
         
           <li>35% less likely to take a freezing cold shower</li>
         
@@ -1649,10 +1649,10 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     
     
 
-    <div class="graphs-entry" id="graphs-entry-cold-symptons">
-      <h3>Cold Symptons</h3>
+    <div class="graphs-entry" id="graphs-entry-cold-symptoms">
+      <h3>Cold Symptoms</h3>
       <p class="graph-description">
-        Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain.
+        Number of days each month where I had cold symptoms (dark green [1] = day with cold symptoms), which I classify as having a runny nose, feeling light-headed or having light ear pain.
       </p>
 
       <ul>
@@ -1673,7 +1673,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
       </span>
 
       <div class="image-container">
-        <img src="graphs/screens/cold-symptons.png" class="image-link" alt="Cold Symptons" onclick="enlargeImage(this, 'graphs/screens/cold-symptons.png', 'Cold Symptons')" />
+        <img src="graphs/screens/cold-symptoms.png" class="image-link" alt="Cold Symptoms" onclick="enlargeImage(this, 'graphs/screens/cold-symptoms.png', 'Cold Symptoms')" />
       </div>
 
       <span class="graph-date">2.5 years of data - Last updated on 2022-01-01</span>
@@ -1686,7 +1686,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-day-is-weekend">
       <h3>What are Weekends like?</h3>
       <p class="graph-description">
-        Weekends for me naturally involve less working time, more going out, and social interactions, as well as visiting family memebers outside the city
+        Weekends for me naturally involve less working time, more going out, and social interactions, as well as visiting family members outside the city
       </p>
 
       <ul>
@@ -1890,12 +1890,12 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-money-flow">
       <h3>Annual Money Flow</h3>
       <p class="graph-description">
-        Inspired by a <a href='https://old.reddit.com/r/PFPorn' target='_blank'>Reddit finance commnunity</a>, I had been creating annual money flow charts to clearly see how much money I earned, where I spent how much, and how much I saved. The chart below isn't mine (for privacy reasons), but just an example I created.
+        Inspired by a <a href='https://old.reddit.com/r/PFPorn' target='_blank'>Reddit finance community</a>, I had been creating annual money flow charts to clearly see how much money I earned, where I spent how much, and how much I saved. The chart below isn't mine (for privacy reasons), but just an example I created.
       </p>
 
       <ul>
         
-          <li><span class='highlighted'>Not owning an apartment, and <a href='/blog/one-year-nomad' target='_blank'>living in Airbnbs as a nomad</a> I actually spent less money.</span> This was due to not having to buy any furniture, appliances, etc. but also because the number of items I could by for myself was limited, as everything was limited to be able to fit into 2 suitcases. Additionaly I didn't have to pay any rent whenever I traveled for my job, or during conferences.</li>
+          <li><span class='highlighted'>Not owning an apartment, and <a href='/blog/one-year-nomad' target='_blank'>living in Airbnbs as a nomad</a> I actually spent less money.</span> This was due to not having to buy any furniture, appliances, etc. but also because the number of items I could buy for myself was limited, as everything was limited to be able to fit into 2 suitcases. Additionally I didn't have to pay any rent whenever I traveled for my job, or during conferences.</li>
         
           <li>Misc. subscriptions/expenses are adding up quickly</li>
         
@@ -1942,7 +1942,7 @@ Each row has a `timestamp`, `key` and `value`.
 <img src="/graphs/assets/fxlifesheet-questions.png" id="lifesheet-questions" />
 
 Multiple times a day, I manually answer questions [FxLifeSheet](https://github.com/KrauseFx/FxLifeSheet) sends me via a Telegram bot, which range from fitness-related questions (e.g. nutrition, exercise, sleep, etc.) to questions about my life (e.g. how I'm feeling, how much time I spend on social media, etc.).
-The [Telegram API](https://core.telegram.org/) is excellent, and even allows you to customize the keyboard to have pre-defined replies based on the question asked.
+The [Telegram API](https://core.telegram.org/) is excellent, and even allows you to customize the keyboard to have predefined replies based on the question asked.
 
 Additionally I can fill-out date ranges with specific values, for example lockdown periods, and bulking/cutting fitness seasons.
 

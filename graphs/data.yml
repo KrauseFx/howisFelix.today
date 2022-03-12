@@ -75,7 +75,7 @@
   years: 27.5
   updated: "2022-02-24"
   instructions: "Felix Life overview doc"
-  description: "Inspired by [Your Life in Weeks by WaitButWhy](https://waitbutwhy.com/2014/05/life-weeks.html), I use Google Sheets to visualize every week of my life, with little notes on what city/country I was at, and other life events that have happened."
+  description: "Inspired by [Your Life in Weeks by WaitButWhy](https://waitbutwhy.com/2014/05/life-weeks.html), I use Google Sheets to visualize every week of my life, with little notes on what city/country I was in, and other life events that have happened."
   takeaways:
   - The first 14 years I didn't really get much done
   - I can highly recommend taking a few weeks (or even months) off between jobs (if you have the possibility)
@@ -98,10 +98,10 @@
 - id: "weight-sleeping-hr"
   title: "Correlation: Weight and Resting Heart Rate"
   source:
-  - Withings Scanwatch
+  - Withings ScanWatch
   - Withings Scale
   updated: "2022-02-09"
-  description: "This graph clearly shows the correlation between my body weight and my sleeping/resting heart rate. The resting heart rate is measured by the [Withings Scanwatch](https://www.withings.com/us/en/scanwatch) while sleeping, and indicates how hard your heart has to work while not being active. Generally the lower the resting heart rate, the better."
+  description: "This graph clearly shows the correlation between my body weight and my sleeping/resting heart rate. The resting heart rate is measured by the [Withings ScanWatch](https://www.withings.com/us/en/scanwatch) while sleeping, and indicates how hard your heart has to work while not being active. Generally the lower the resting heart rate, the better."
   takeaways:
   - "I started my lean bulk (controlled weight gain combined with 5 workouts a week) in August 2020"
   - "My resting heart rate went from 58bpm to 67bpm from August 2020 (**+9bpm**) to March 2021 with a weight gain of **+8.5kg** (+19lbs)"
@@ -110,7 +110,7 @@
   - "The spike in resting heart rate in Oct/Nov/Dec 2021 was due to having bronchitis and a cold/flu, not getting correct treatment early enough"
   years: 1.5
 - id: "healthy"
-  title: "How healthy was I over the Years?"
+  title: "How healthy have I been over the Years?"
   source:
   - "Manually"
   years: 2.5
@@ -168,7 +168,7 @@
   title: "Most visited POIs, grouped by City"
   source: "Swarm"
   years: 7
-  description: "Each time I checked into a place (e.g. Coffee, Restaurant, Airport, Gym) on [Foursquare Swarm](https://swarmapp.com) at a given city, this is tracked as a single entry."
+  description: "Each time I did a check-in at a place (e.g. Coffee, Restaurant, Airport, Gym) on [Foursquare Swarm](https://swarmapp.com) at a given city, this is tracked as a single entry."
   instructions: "pie_chart.html"
   updated: "2022-01-01"
 - id: "swarm-cities-top-years"
@@ -267,7 +267,7 @@
   years: 4
   source:
   - "MyFitnessPal"
-  description: "On weeks where I have a routine (not traveling), I track most my meals. Whenever I scale my food, I try to guess the weight before to become better at estimating portion sizes."
+  description: "On weeks where I have a routine (not traveling), I track most of my meals. Whenever I scale my food, I try to guess the weight before to become better at estimating portion sizes."
   takeaways:
   - Tracking macros precisely is the best way to lose/gain weight at a controlled and healthy speed
   - When I first started tracking macros, additionally to already working out regularly, is when I started seeing the best results
@@ -279,7 +279,7 @@
   source: 
   - "Manually"
   years: 2.5
-  description: "Percantage of days I went to the gym"
+  description: "Percentage of days I went to the gym"
   takeaways:
   - "During the first lockdown in Q2 2020 I didn't have access to a gym, and didn't count home-workouts as gym visits"
   - "Generally I hit the gym 5 days a week when I'm at home, but as shown on this graph it ends up being less, mostly due to traveling, and occasional colds"
@@ -292,13 +292,13 @@
   - "Manually"
   description: "I'm following a pretty regular bodybuilding routine, a 3-day workout split, and a normal bulk & cut seasons"
   takeaways:
-  - During times where fitness isn't high up on my priority list, I usually switch to maintainance
+  - During times where fitness isn't high up on my priority list, I usually switch to maintenance
   - During a cut, I have a slight kcal deficit of about 300kcal, to not negatively impact the rest of my life
   - During the bulk, I aim to gain about 300g of body weight per week
   - During a cut, I tend to track my meals more precisely than during a bulk or while maintaining
   - Purple = Cut
   - Brown = Bulk
-  - Blue = Maintainance
+  - Blue = Maintenance
   updated: "2022-01-01"
   instructions: "/pie_chart -> dietPhase"
 - id: "weight-graph-1"
@@ -355,7 +355,7 @@
   - "Manually"
   description: "On days where I had a total sleep duration of more than 8.5 hours, the following other factors were affected"
   takeaways:
-  - 65% more likely to have cold symptons
+  - 65% more likely to have cold symptoms
   - 60% more likely to have headache
   - 40% more social media usage
   - 30% more likely to be a rainy day
@@ -408,7 +408,7 @@
   - Since I'm an Introvert, I tend to feel like I socialize too much, rather than too little
   - "**Early COVID lockdown March 2020 was still good, however as the lockdown continued I started feeling more isolated**, also partly because I was single, and had just moved to Vienna"
   - End of July 2020 Austria opened up most social venues again, bringing this graph back to an ideal level again
-  - December 2019 I was working remotely from Buenos Aires, however got a pretty bad cold. Being sick in a remote city wasn't the best feeling
+  - December 2019 I was working remotely from Buenos Aires, however I got a pretty bad cold. Being sick in a remote city wasn't the best feeling
   - Over the last 2.5 years I actually never felt isolated, therefore there is no entry for the value '0'
   updated: "2022-01-01"
   instructions: "/pie_chart -> socializing"
@@ -437,7 +437,7 @@
   description: "Winter (being from 21st Dec to 20th March) has the following effects on my life:"
   takeaways:
   - "Online shopping time going up by 100%, most likely due to the last Winters having spent in lockdown"
-  - "**Chances of having cold symptons goes up 45%**"
+  - "**Chances of having cold symptoms goes up 45%**"
   - "35% less likely to take a freezing cold shower"
   - "Unsurprisingly, I'm exposed to less solar energy in Winter, make sure to get enough Vitamin D"
   updated: "2022-01-01"
@@ -462,12 +462,12 @@
   description: "From late 2017 to early 2020 I lived without a permanent home address as a [digital nomad](/blog/one-year-nomad), staying at various Airbnbs or taking over a few weeks of a lease from a friend"
   instructions: "pie_chart.html livingStyle key"
   updated: "2022-01-01"
-- id: "cold-symptons"
-  title: "Cold Symptons"
+- id: "cold-symptoms"
+  title: "Cold Symptoms"
   source: 
   - "Manually"
   years: 2.5
-  description: "Number of days each months where I had a cold symptom (dark green [1] = day with cold symptons), which I classify as having a running nose, feeling light-headed or having light ear pain."
+  description: "Number of days each month where I had cold symptoms (dark green [1] = day with cold symptoms), which I classify as having a runny nose, feeling light-headed or having light ear pain."
   takeaways:
     - "Clearly the cold months of 2019 and 2021 I had significantly more days with cold symptoms"
     - "Winter 2021 was a full lockdown, I assume this reduced the risk of getting sick"
@@ -478,7 +478,7 @@
   source:
   - "Manually"
   years: 2.5
-  description: "Weekends for me naturally involve less working time, more going out, and social interactions, as well as visiting family memebers outside the city"
+  description: "Weekends for me naturally involve less working time, more going out, and social interactions, as well as visiting family members outside the city"
   takeaways:
   - 150% more computer time spent on "Entertainment", which is mostly coming from occasionally playing [Factorio](https://www.factorio.com/) or Age Of Empires with friends at LAN-Party gatherings
   - 74% more time spent watching TV
@@ -570,9 +570,9 @@
   - sankeymatic.com
   - Manually
   years: 5
-  description: "Inspired by a [Reddit finance commnunity](https://old.reddit.com/r/PFPorn), I had been creating annual money flow charts to clearly see how much money I earned, where I spent how much, and how much I saved. The chart below isn't mine (for privacy reasons), but just an example I created."
+  description: "Inspired by a [Reddit finance community](https://old.reddit.com/r/PFPorn), I had been creating annual money flow charts to clearly see how much money I earned, where I spent how much, and how much I saved. The chart below isn't mine (for privacy reasons), but just an example I created."
   takeaways:
-  - "**Not owning an apartment, and [living in Airbnbs as a nomad](/blog/one-year-nomad) I actually spent less money.** This was due to not having to buy any furniture, appliances, etc. but also because the number of items I could by for myself was limited, as everything was limited to be able to fit into 2 suitcases. Additionaly I didn't have to pay any rent whenever I traveled for my job, or during conferences."
+  - "**Not owning an apartment, and [living in Airbnbs as a nomad](/blog/one-year-nomad) I actually spent less money.** This was due to not having to buy any furniture, appliances, etc. but also because the number of items I could buy for myself was limited, as everything was limited to be able to fit into 2 suitcases. Additionally I didn't have to pay any rent whenever I traveled for my job, or during conferences."
   - Misc. subscriptions/expenses are adding up quickly
   - Having an End-Of-Year summary from your credit card provider, and always using your card when possible, is a great way to get those numbers
   - Creating this chart is still a lot of work, as you have to keep in mind that some expenses are not solely yours, but you might have covered for a group (e.g. booked a larger Airbnb), or got reimbursed
