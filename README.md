@@ -1,4 +1,4 @@
-# [whereisfelix.today?](https://whereisfelix.today)
+# [whereisFelix.today?](https://whereisfelix.today)
 
 
 ## Development

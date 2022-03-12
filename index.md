@@ -1,7 +1,7 @@
 ---
 layout: page
 status: publish
-title: whereisfelix.today?
+title: whereisFelix.today?
 type: page
 published: true
 meta: {}
@@ -218,7 +218,7 @@ meta: {}
 </script>
 
 <div id="mapsContainer">
-  <div id="mapsMenuBannerCover">whereisfelix.today?</div>
+  <div id="mapsMenuBannerCover">whereisFelix.today?</div>
   <img id="currentLocationMap">
 </div>
 <div id="story-available" class="story-not-available">
@@ -227,7 +227,7 @@ meta: {}
 
 <div id="realTimeDataDiv">
   <h2 id="currentCityContainer"><a id="fx-user-link" href="https://twitter.com/KrauseFx">Felix</a> is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
-  <h3 id="isMovingContainer" style="display: none">Felix is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
+  <h3 id="isMovingContainer" style="display: none"><a id="fx-user-link" href="https://twitter.com/KrauseFx">Felix</a> is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
   <h4 id="nextCityContainer" style="display: none">Leaving for <span id="nextCityText"></span> <span id="nextCityTime"></span></h4>
 
   <table id="next-cities-table" cellspacing="0" cellpadding="0">
