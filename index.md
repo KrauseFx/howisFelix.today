@@ -2097,8 +2097,12 @@ After having tried various tools available to visualize, I ended up writing my o
 
   document.getElementById("arrow-left-button").addEventListener("click", previousGraph);
   document.getElementById("arrow-right-button").addEventListener("click", nextGraph);
-  document.getElementById("enlargedImageContainerBackground").addEventListener("touchstart", dismissImage); // so that mobile devices don't scroll 
   document.getElementById("enlargedImageContainerBackground").addEventListener("click", dismissImage); // desktop browsers
+
+  // so that mobile devices don't scroll 
+  // Important to use `touchmove``, and not `touchstart`, as `touchstart` would be triggered for a regular click also
+  // causing the user to click the element behind when trying to dismiss the image
+  document.getElementById("enlargedImageContainerBackground").addEventListener("touchmove", dismissImage); 
 
   window.addEventListener('resize', function(event) {
     // Reposition the arrows
