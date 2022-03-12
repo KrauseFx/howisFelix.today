@@ -802,6 +802,21 @@ After having tried various tools available to visualize, I ended up writing my o
     text-align: right;
     white-space: nowrap;
   }
+  #real-time-table tr {
+    line-height: 16px;
+    font-size: 88%;
+  }
+  #real-time-table tr .ago-subtle {
+    font-size: 85%;
+  }
+  #real-time-table tr .highlighted {
+    padding: 4px;
+  }
+  @media screen and (max-width: 800px) {
+    #real-time-table tr {
+      line-height: 12px;
+    }
+  }
   #table-container { 
     margin-top: 20px; 
     margin-left: auto; 
