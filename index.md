@@ -575,6 +575,8 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
         
           <li>Shades of red is formal education</li>
         
+          <li>You can create your own version using <a href='https://www.producthunt.com/posts/your-life-in-weeks' target='_blank'>my template</a></li>
+        
       </ul>
 
       <span class="graph-sources">
