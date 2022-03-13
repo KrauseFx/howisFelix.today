@@ -1978,7 +1978,26 @@ Additionally I can fill-out date ranges with specific values, for example lockdo
 
 After having tried various tools available to visualize, I ended up writing my own data analysis layer using Ruby, JavaScript together with [Plotly](https://plotly.com/javascript/). You can find the full source code on [KrauseFx/FxLifeSheet - visual_playground](https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground).
 
-<hr style="margin-top: 20px;" />
+<hr style="margin-top: 30px; margin-bottom: 20px" />
+
+<h2>Conclusion</h2>
+
+I've always been fascinated by tracking my own data, and seeing it visualized somehow. Ever since I was young I asked myself questions like `How many steps did I walk in my life?`, and `Did I turn right more often or left?`.
+
+Having read many articles on [r/QuantifiedSelf/](https://old.reddit.com/r/QuantifiedSelf/) and alike, I really loved the visualizations, but disliked the fact that almost all solutions were data-silos (e.g. standalone iOS apps, Gyroscope, ...) without having full control over the data as well as how it is visualized. Since collecting this amount of data over a long period of time (multiple years), you can hardly rely on any startup, or small service/app to do that job, since chances of the company shutting down the project are too high.
+Additionally, the way you want to visualize the data is highly personal, and every person will have very different needs on what data to track, as well as how you want it to be analyzed.
+
+Apple was in a great position to improve the current state with Apple Health, but they completely failed with their implementation on both the APIs, as well as the actual Health app.
+
+One aspect I underestimated is the number of days you will track: If you want to look into how many steps you walked in a given city, you'll quickly notice the number of days in each city already being quite low. You'd then also slice the data by season or temperature, since you naturally walk less on very cold days, ending up with only a handful of days outside your main residence.
+
+Overall, having spent a significant amount of time building this project, scaling it up to the size it's at now, as well as analysing the data, <span class="highlighted">the main conclusion is that it is not worth building your own solution, and investing this much time.</span>
+
+I'll likely continue tracking my mood, as well as a few other key metrics, however will significantly reduce the amount of time I invest.
+
+I'm very happy I've built this project in the first place, as it gave me a much better awareness of everything going on in my life. I'm excited to have built this website to wrap-up this project and show-case some of the outcomes.
+
+<hr style="margin-top: 10px;" />
 
 <footer>
   <p>
@@ -2583,7 +2602,8 @@ After having tried various tools available to visualize, I ended up writing my o
   #lifesheet-questions {
     height: 510px;
     float: right;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
     margin-top: -70px;
   }
   @media screen and (max-width: 800px) {
