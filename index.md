@@ -395,6 +395,10 @@ Currently, I have <b><span id="data-points">~380,000</span> data points</b>, wit
 
 I selected <span class="highlighted">42</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
 
+<p class="graph-overview-footer">
+  Note: some graphs were created using third party services or apps, however most were generated using my <a href="https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground">own visualization code</a> using plotly.js.
+</p>
+
 
 
 <div id="graphs-container">
@@ -2175,7 +2179,7 @@ After having tried various tools available to visualize, I ended up writing my o
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   #enlargedImageContainerBackground {
     position: fixed;
@@ -2391,13 +2395,15 @@ After having tried various tools available to visualize, I ended up writing my o
     line-height: 60px;
   }
   .food-overview > div {
-    margin: 0 30px;
-    display: inline;
+    margin: 0 10px;
+    display: inline-block;
     position: relative;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    width: 160px;
+    height: 70px;
   }
   .macro-bar-outer {
     width: 110px;
@@ -2642,6 +2648,12 @@ After having tried various tools available to visualize, I ended up writing my o
       margin-bottom: 20px;
       margin-left: 15px;
     }
+  }
+  .graph-overview-footer {
+    color: #777;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0;
   }
 </style>
 
