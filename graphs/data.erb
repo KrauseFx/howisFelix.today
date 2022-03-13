@@ -350,10 +350,9 @@ meta: {}
   <hr />
 </div>
 
-<h1>My whole life in a single database</h1>
+<h1>Background: Why I put my whole life into a single database</h1>
 
-As part of the [FxLifeSheet project](https://github.com/KrauseFx/FxLifeSheet), I created back in 2019, I started collecting all kinds of metrics about my life.
-Every single day for the last 2.5 years I tracked over 100 different data types - ranging from fitness & nutrition to social life, computer usage and weather.
+Back in 2019, I started collecting all kinds of [metrics about my life] (https://github.com/KrauseFx/FxLifeSheet). Every single day for the last 2.5 years I tracked over 100 different data types - ranging from fitness & nutrition to social life, computer usage and weather.
 
 <div class="social-media-list" style="float: right; margin-top: 8px; margin-left: 15px;">
   <p>
@@ -375,7 +374,7 @@ Every single day for the last 2.5 years I tracked over 100 different data types 
 - Are there any trends over the last few years?
 - How does computer time, work and hours in meetings affect my personal life?
 
-Currently, I have <b><span id="data-points">~380,000</span> data points</b>, with the biggest data sources being:
+Since the start of this project, I have <b><span id="data-points">~380,000</span> data points</b>, with the biggest data sources being:
 
 <table id="data-sources-overview">
   <tr><th>Data Source</th><th>Number of data entries</th><th>Type of data</th></tr>
@@ -387,9 +386,9 @@ Currently, I have <b><span id="data-points">~380,000</span> data points</b>, wit
   <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
 </table>
 
-The domain [`whereisfelix.today`](https://whereisfelix.today) started as a joke: whenever my friends asked me when I'd be back in NYC or San Francisco, I'd send them this link containing only my upcoming travel schedule.
+Naturally after I started collecting this data, I wanted to visualize what I was learning, so I created this page. Initially, the domain [`whereisfelix.today`](https://whereisfelix.today) started as a joke to respond to frends asking when I'd be back in NYC or San Francisco. Rather than send them my plans, I'd point them to this domain. However, now it's more than my location; it's all of me.
 
-**Key decisions for this project:**
+**Rules I setup for the project**
 
 - Use a single database, owned and hosted by me, with all the data I've collected over the years
 - Be able to [easily add and remove questions](https://github.com/KrauseFx/FxLifeSheet/blob/master/lifesheet.json) on the fly, as I learn what's beneficial to track
@@ -473,8 +472,8 @@ Early on in the project I made the decision not to associate an entry to a speci
 
 <img src="/graphs/assets/fxlifesheet-questions.png" id="lifesheet-questions" />
 
-Multiple times a day, I manually answer questions [FxLifeSheet](https://github.com/KrauseFx/FxLifeSheet) sends me via a Telegram bot, which range from fitness-related questions (e.g. nutrition, exercise, sleep, etc.) to questions about my life (e.g. how I'm feeling, how much time I spend on social media, etc.).
-The [Telegram API](https://core.telegram.org/) is excellent, and even allows you to customize the keyboard to have predefined replies based on the question asked.
+To populate the data, I manually answer questions [multiple times a day](https://github.com/KrauseFx/FxLifeSheet) through a Telegram bot. These questions span fitness or health (e.g. nutrition, exercise, sleep, etc.) to questions about my life (e.g. how I'm feeling, how much time I spend on social media, etc.).
+The extensible use of the [Telegram API](https://core.telegram.org/) made this easy, and even allowed me to customize the keyboard to have predefined replies based on the question asked.
 
 Additionally I can fill-out date ranges with specific values, for example lockdown periods, and bulking/cutting fitness seasons.
 
@@ -486,10 +485,9 @@ After having tried various tools available to visualize, I ended up writing my o
 
 <h2>Conclusion</h2>
 
-I've always been fascinated by tracking my own data, and seeing it visualized somehow. Ever since I was young I asked myself questions like `How many steps did I walk in my life?`, and `Did I turn right more often or left?`.
+I've always been fascinated by tracking my own data, and seeing it visualized. While I can't pinpoint the reason why, I remember having this fascination growing up, asking myself questions like `How many steps did I walk in my life?`, and `Did I turn right more often or left?`.
 
-Having read many articles on [r/QuantifiedSelf/](https://old.reddit.com/r/QuantifiedSelf/) and alike, I really loved the visualizations, but disliked the fact that almost all solutions were data-silos (e.g. standalone iOS apps, Gyroscope, ...) without having full control over the data as well as how it is visualized. Since collecting this amount of data over a long period of time (multiple years), you can hardly rely on any startup, or small service/app to do that job, since chances of the company shutting down the project are too high.
-Additionally, the way you want to visualize the data is highly personal, and every person will have very different needs on what data to track, as well as how you want it to be analyzed.
+Having read many articles similar to [r/QuantifiedSelf/](https://old.reddit.com/r/QuantifiedSelf/), I really loved the visualizations, but disliked the fact that almost all solutions were data-silos (e.g. standalone iOS apps, Gyroscope, ...) without having full control over the data, nor how it's visualized. Because the data collection spans multiple years, I was apprehensive to rely on any start up or service that run the risk of being shut down. Additionally, every individual may have differences in how they want to visualize or analyze the data.
 
 Apple was in a great position to improve the current state with Apple Health, but they completely failed with their implementation on both the APIs, as well as the actual Health app.
 
