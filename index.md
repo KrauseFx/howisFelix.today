@@ -2425,7 +2425,8 @@ I'm very happy I've built this project in the first place, as it gave me a much 
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 160px;
+    width: 150px;
+    font-size: 90%;
     height: 70px;
   }
   .macro-bar-outer {
