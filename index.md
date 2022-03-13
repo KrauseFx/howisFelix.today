@@ -147,14 +147,15 @@ meta: {}
 
       // Render the food list
       let foodEntriesTable = document.getElementById("foodEntriesTable")
-      foodEntriesTable.innerHTML = ""
+      foodEntriesTable.innerHTML = "<tr><th>Food</th><th>Amount</th></tr>"
+      foodEntriesTable = foodEntriesTable.getElementsByTagName("tbody")[0]
       for (let i = 0; i < data.todaysFoodItems.length; i++) {
         let foodItem = data.todaysFoodItems[i]
         let row = document.createElement("tr")
         row.className = i >= 3 ? "hidden-food" : ""
         row.style.display = i >= 3 ? "none" : ""
         const amount = foodItem.amount.split("/")[0] // Sometimes mfp has weird slashes, with the units ending up too long
-        row.innerHTML = "<td>" + foodItem.name + "</td><td>" + amount + "</td>"
+        row.innerHTML = "<td>" + foodItem.name.replace("Parkhurst - ", "") + "</td><td>" + amount.replace(" gram", " g") + "</td>"
         foodEntriesTable.appendChild(row)
       }
       if (data.todaysFoodItems.length > 3) {
@@ -276,6 +277,7 @@ meta: {}
 
     <div id="foodEntries" class="blurred">
       <table id="foodEntriesTable" cellspacing="0" cellpadding="0">
+        <tr><th>Food</th><th>Amount</th></tr>
         <tr><td>Club Mate</td><td>500 ml</td></tr>
         <tr><td>Chicken Breast</td><td>500c</td></tr>
         <tr><td>Rice</td><td>200g</td></tr>
@@ -2450,10 +2452,13 @@ I'm very happy I've built this project in the first place, as it gave me a much 
     max-width: 430px;
     margin-left: auto;
     margin-right: auto;
+    display: inline;
     white-space: nowrap;
+    border-spacing: 4px;
+    border-collapse: separate;
   }
   #foodEntries {
-    margin-top: 30px;
+    margin-top: -10px;
     width: 100%;
     text-align: center;
   }
@@ -2464,10 +2469,22 @@ I'm very happy I've built this project in the first place, as it gave me a much 
   }
   #foodEntriesTable tr > td {
     color: #669;
-    padding: 9px 0 0;
+    padding: 3px 10px 0;
     border: none;
     text-overflow: ellipsis;
     overflow: hidden;
+  }
+  #foodEntriesTable th {
+    color: #039;
+    border-bottom: 1px solid #6678b1;
+    padding: 5px 5px;
+    border-top: 0;
+    border-right: 0;
+    text-align: center;
+    border-left: 0;
+    font-size: 14px;
+    background-color: transparent;
+    white-space: nowrap;
   }
   #foodEntriesTable tr > td:first-child {
     max-width: 270px;
