@@ -218,7 +218,6 @@ meta: {}
 </script>
 
 <div id="mapsContainer">
-  <div id="mapsMenuBannerCover">whereisFelix.today?</div>
   <img id="currentLocationMap">
 </div>
 <div id="story-available" class="story-not-available">
@@ -365,6 +364,7 @@ The goal of this project was to answer a handful of questions about my life, thi
   <ul>
     <li>{% include icon-twitter.html username="KrauseFx" %}</li>
     <li>{% include icon-instagram.html %}</li>
+    <li>{% include icon-url.html %}</li>
   </ul>
 </div>
 
@@ -492,6 +492,7 @@ After having tried various tools available to visualize, I ended up writing my o
   <ul>
     <li>{% include icon-twitter.html username="KrauseFx" %}</li>
     <li>{% include icon-instagram.html %}</li>
+    <li>{% include icon-url.html %}</li>
   </ul>
 </div>
 <br /><br />
@@ -760,19 +761,6 @@ After having tried various tools available to visualize, I ended up writing my o
     top: 0px;
     left: 0px;
     z-index: -1;
-  }
-  #mapsMenuBannerCover {
-    height: 30px;
-    border-bottom: 2px solid #e4e7ef;
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    z-index: 2;
-    font-size: 16px;
-    text-align: center;
-    padding-top: 4px;
-    color: #444;
   }
   #currentLocationMap {
     width: 100%;
@@ -1122,6 +1110,9 @@ After having tried various tools available to visualize, I ended up writing my o
   .icon > svg {
     display: inline-block;
     vertical-align: middle;
+  }
+  .social-media-list .url-details {
+    margin-left: 4px; /* no idea why this is needed */
   }
   .icon > svg path {
     fill: #828282;
