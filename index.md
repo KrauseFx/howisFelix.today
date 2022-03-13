@@ -354,9 +354,7 @@ meta: {}
 As part of the [FxLifeSheet project](https://github.com/KrauseFx/FxLifeSheet), I created back in 2019, I started collecting all kinds of metrics about my life.
 Every single day for the last 2.5 years I tracked over 100 different data types - ranging from fitness & nutrition to social life, computer usage and weather.
 
-The goal of this project was to answer a handful of questions about my life, things like
-
-<div class="social-media-list" style="float: right">
+<div class="social-media-list" style="float: right; margin-top: 8px; margin-left: 15px;">
   <p>
     <b>Ideas or suggestions?</b><br />
     <span class="ideas-subtitle">I'd love to hear from you!</span>
@@ -368,13 +366,15 @@ The goal of this project was to answer a handful of questions about my life, thi
   </ul>
 </div>
 
+The goal of this project was to answer a handful of questions about my life, things like
+
 - How does living in different cities affect other factors like fitness, productivity and happiness?
 - How does sleep affect my day, my fitness level, and happiness?
 - How does the weather, and the different seasons affect my life?
 - Are there any trends over the last few years?
 - How does computer time, work and hours in meetings affect my personal life?
 
-Currently, I have <b><span id="data-points" class="highlighed">~380,000</span> data points</b>, with the biggest data sources being:
+Currently, I have <b><span id="data-points">~380,000</span> data points</b>, with the biggest data sources being:
 
 <table id="data-sources-overview">
   <tr><th>Data Source</th><th>Number of data entries</th><th>Type of data</th></tr>
@@ -385,6 +385,13 @@ Currently, I have <b><span id="data-points" class="highlighed">~380,000</span> d
   <tr><td>Weather API</td><td><span class="highlighted" id="h-weather">15,442</span></td><td>Temperature, rain, sunlight, wind</td></tr>
   <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
 </table>
+
+To achieve that goal, I wanted a project that:
+
+- Uses a single database, owned and hosted by me, with all the data I've collected over the years
+- Easily add and remove questions on the fly, as I learn what's beneficial to track
+- Full control of how the data is visualized
+- Works well for frequent fliers with mixed time zones
 
 I selected <span class="highlighted">42</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
 
@@ -1982,7 +1989,7 @@ After having tried various tools available to visualize, I ended up writing my o
   </p>
 </footer>
 
-<div class="social-media-list" style="float: left; margin-top: -115px;">
+<div class="social-media-list" id="social-media-list-bottom" style="float: left; margin-top: -133px;">
   <p>
     <b>Ideas or suggestions?</b><br />
     <span class="ideas-subtitle">I'd love to hear from you!</span>
@@ -2620,6 +2627,14 @@ After having tried various tools available to visualize, I ended up writing my o
   }
   .ideas-subtitle {
     color: #666;
+  }
+  @media screen and (max-width: 800px) {
+    #social-media-list-bottom {
+      float: right !important;
+      margin-top: 10px !important;
+      margin-bottom: 20px;
+      margin-left: 15px;
+    }
   }
 </style>
 
