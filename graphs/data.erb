@@ -385,6 +385,8 @@ Currently, I have <b><span id="data-points">~380,000</span> data points</b>, wit
   <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
 </table>
 
+The domain [`whereisfelix.today`](https://whereisfelix.today) started as a joke: whenever my friends asked me when I'd be back in NYC or San Francisco, I'd send them this link containing only my upcoming travel schedule.
+
 **Key decisions for this project:**
 
 - Use a single database, owned and hosted by me, with all the data I've collected over the years
