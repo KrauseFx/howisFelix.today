@@ -77,7 +77,7 @@ meta: {}
       (otherFxLifeData["weight"]["value"]).toFixed(1) + " lbs"
     document.getElementById("current-weight-time").innerHTML = "(" + daysAgo(new Date(otherFxLifeData["weight"]["time"])) + ")"
     document.getElementById("current-sleep-duration").innerHTML =
-      "<span class='highlighted'>" + otherFxLifeData["sleepDurationWithings"]["value"] + " hours</span> <span class=\"ago-subtle\">(tonight)</span>"
+      "<span class='highlighted'>" + otherFxLifeData["sleepDurationWithings"]["value"] + " hours</span> <span class=\"ago-subtle\">(last night)</span>"
     document.getElementById("last-workout").innerHTML = daysAgo(new Date(otherFxLifeData["gym"]["time"]))
     document.getElementById("last-meditated").innerHTML = daysAgo(new Date(otherFxLifeData["meditated"]["time"]))
     document.getElementById("data-points").innerHTML = otherFxLifeData["totalAmountOfEntries"]["value"].toLocaleString()
@@ -304,7 +304,7 @@ meta: {}
       </tr>
       <tr>
         <td>Slept</td>
-        <td id="current-sleep-duration" class="blurred"><span class="highlighted">9 hours</span> <span class="ago-subtle">(tonight)</span></td>
+        <td id="current-sleep-duration" class="blurred"><span class="highlighted">9 hours</span> <span class="ago-subtle">(last night)</span></td>
       </tr>
       <tr>
         <td>Last Workout</td>
