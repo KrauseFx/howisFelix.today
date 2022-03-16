@@ -1,7 +1,5 @@
 # [howisFelix.today?](https://howisfelix.today)
 
-## See the result on <a href="https://howisfelix.today/">howisfelix.today</a>
-
 <img src="https://raw.githubusercontent.com/KrauseFx/howisfelix.today/master/screenshots/Desktop-1.png" />
 
 <h2 align=center>See the result on <a href="https://howisfelix.today/">howisfelix.today</a></h2>
