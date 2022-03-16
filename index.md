@@ -722,7 +722,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
         
           <li>60% more time spent with friends</li>
         
-          <li>40% warmer temperatures. There weren't many opportunities for parties in Winter due to lockdowns in the last 2 years. Also, people are more motivated to go out when it's nice outside.</li>
+          <li>40% warmer temperatures, and 40% less precipitation. There weren't many opportunities for parties in Winter due to lockdowns in the last 2 years. Also, people are more motivated to go out when it's nice outside.</li>
         
           <li>25% more steps</li>
         
