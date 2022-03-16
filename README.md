@@ -51,4 +51,4 @@ SKIP=1 be ruby graphs/update.rb
 
 ## Backend
 
-The server code is on https://github.com/KrauseFx/howisFelix.today-backend, which used to also include an Angular-based frontend, but now got replaced by a simple Jekyll application
+The server code is on https://github.com/KrauseFx/whereisfelix.today-backend, which used to also include an Angular-based frontend, but now got replaced by a simple Jekyll application
