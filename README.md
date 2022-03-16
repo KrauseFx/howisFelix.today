@@ -1,23 +1,23 @@
-# [whereisFelix.today?](https://whereisfelix.today)
+# [howisFelix.today?](https://howisfelix.today)
 
-## See the result on <a href="https://whereisfelix.today/">whereisfelix.today</a>
+## See the result on <a href="https://howisfelix.today/">howisfelix.today</a>
 
-<img src="https://raw.githubusercontent.com/KrauseFx/whereisfelix.today/master/screenshots/Desktop-1.png" />
+<img src="https://raw.githubusercontent.com/KrauseFx/howisfelix.today/master/screenshots/Desktop-1.png" />
 
-<h2 align=center>See the result on <a href="https://whereisfelix.today/">whereisfelix.today</a></h2>
+<h2 align=center>See the result on <a href="https://howisfelix.today/">howisfelix.today</a></h2>
 <p />
 
 
 <table>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/KrauseFx/whereisfelix.today/master/screenshots/iPhone-1.png" />
+      <img src="https://raw.githubusercontent.com/KrauseFx/howisfelix.today/master/screenshots/iPhone-1.png" />
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/KrauseFx/whereisfelix.today/master/screenshots/iPhone-2.png" />
+      <img src="https://raw.githubusercontent.com/KrauseFx/howisfelix.today/master/screenshots/iPhone-2.png" />
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/KrauseFx/whereisfelix.today/master/screenshots/iPhone-3.png" />
+      <img src="https://raw.githubusercontent.com/KrauseFx/howisfelix.today/master/screenshots/iPhone-3.png" />
     </td>
   </tr>
 </table>
@@ -49,4 +49,4 @@ SKIP=1 be ruby graphs/update.rb
 
 ## Backend
 
-The server code is on https://github.com/KrauseFx/whereisfelix.today-backend, which used to also include an Angular-based frontend, but now got replaced by a simple Jekyll application
+The server code is on https://github.com/KrauseFx/howisfelix.today-backend, which used to also include an Angular-based frontend, but now got replaced by a simple Jekyll application
