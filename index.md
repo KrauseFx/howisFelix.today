@@ -1991,6 +1991,18 @@ I actually published many [privacy projects for iOS](https://krausefx.com/privac
 - The data is stored in my own, private database, not connected to any service
 - The data shown above seems very personal but doesn't actually expose any sensitive information. For example, disclosing your current location, your home address, or stores and places you frequently visits is sensitive and potentially dangerous. Even looking at the map of my movement data, you won't get any more information that what most people have in their public Twitter bio.
 
+<h3>Can I use this for my life?</h3>
+
+Yes, you could. However, setting up [FxLifeSheet](https://github.com/KrauseFx/FxLifeSheet) is a bit of a challenge and requires engineering skills and time. Some of the features are specific to my life (like the services I use), and so you'd have to modify parts of the codebase. This project is 100% open source MIT licensed, so you can use, and modify everything to your liking. However, I don't plan on productionizing this project, nor providing any support on GitHub for it. 
+
+Realistically, if you want to get started with QuantifiedSelf, you can use one of the services availalbe. I'd recommend looking for the following:
+
+- Make sure you get full access to the data, as a data export, or a public API
+- See how the project maintainers react to feedback. Do they listen to their users, and address issues?
+- How much time do you want to invest tracking your data? 
+- What's their business model? Are they sustainable and charge money for their service? 
+- Don't use anything that's only available as an app: In my experience apps tend to be their own data silo, their feature sets are limited, and analyzing data on the big screen is way more efficient.
+
 <h2>Conclusion</h2>
 
 I've always been fascinated by tracking my own data, and seeing it visualized. While I can't pinpoint the reason why, I remember having this fascination growing up, asking myself questions like `How many steps did I walk in my life?`, and `Did I turn right more often or left?`.
@@ -1999,13 +2011,14 @@ Having read many articles similar to [r/QuantifiedSelf/](https://old.reddit.com/
 
 Apple was in a great position to improve the current state with Apple Health, but they completely failed with their implementation on both the APIs, as well as the actual Health app.
 
-One aspect I underestimated is the number of days you will track: If you want to look into how many steps you walked in a given city, you'll quickly notice the number of days in each city already being quite low. You'd then also slice the data by season or temperature, since you naturally walk less on very cold days, ending up with only a handful of days outside your main residence.
+One aspect I overestimated is the number of days you will track: If you want to look into how many steps you walked in a given city, you'll quickly notice the number of days in each city already being quite low. You'd then also slice the data by season or temperature, since you naturally walk less on very cold days, ending up with only a handful of days outside your main residence.
 
 Overall, having spent a significant amount of time building this project, scaling it up to the size it's at now, as well as analysing the data, <span class="highlighted">the main conclusion is that it is not worth building your own solution, and investing this much time.</span>
+When I first started building this project 3 years ago, I expected to learn way more surprising and interesting facts. There were some, and it's super interesting to look through those graphs, however retrospectively, it did not justify the hundreds of hours I invested in this project.
 
-I'll likely continue tracking my mood, as well as a few other key metrics, however will significantly reduce the amount of time I invest.
+I'll likely continue tracking my mood, as well as a few other key metrics, however will significantly reduce the amount of time I invest in it.
 
-I'm very happy I've built this project in the first place, as it gave me a much better awareness of everything going on in my life. I'm excited to have built this website to wrap-up this project and show-case some of the outcomes.
+I'm very happy I've built this project in the first place, as it gave me a much better awareness of everything going on in my life. I'm excited to have built this website to wrap-up this project and show-case some of the outcomes to the public.
 
 <hr style="margin-top: 10px;" />
 
