@@ -1003,7 +1003,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-lockdown-days">
       <h3>Days in Full Lockdown</h3>
       <p class="graph-description">
-        Number of days per year that I've spent in full lockdown, meaning restaurants, bars and non-essential stores were closed. On the graph below, "1" (blue) is a day where I was in full lockdown
+        Number of days per year that I've spent in full lockdown, meaning restaurants, bars and non-essential stores were closed.
       </p>
 
       <ul>
