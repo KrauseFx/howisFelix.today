@@ -43,8 +43,9 @@ meta: {}
       document.getElementById("isMovingContainer").style.display = "none"
       document.getElementById("currentCityB").innerHTML = data["currentCityText"]
     } else {
+      document.getElementById("isMovingContainer").style.display = "block"
       document.getElementById("currentCityContainer").style.display = "none"
-      document.getElementById("nextCityB").innerHTML = data["currentCityText"]
+      document.getElementById("nextCityB").innerHTML = data["currentCityText"].replace("✈️ ", "")
     }
     if (data["nextCityText"]) {
       document.getElementById("nextCityText").innerHTML = data["nextCityText"]
@@ -61,10 +62,14 @@ meta: {}
         td.innerHTML = stay["name"].replace("United States", "USA")
         tr.appendChild(td)
         const td2 = document.createElement("td")
-        td2.innerHTML = new Date(stay["fromDate"]).toLocaleDateString("en-US", {day: 'numeric', month: 'short'})
+        let fromDate = new Date(stay["fromDate"])
+        fromDate.setDate(fromDate.getDate() + 1); // For some reason this is needed
+        td2.innerHTML = fromDate.toLocaleDateString("en-US", {day: 'numeric', month: 'short'})
         tr.appendChild(td2)
         const td3 = document.createElement("td")
-        td3.innerHTML = new Date(stay["toDate"]).toLocaleDateString("en-US", {day: 'numeric', month: 'short'})
+        let toDate = new Date(stay["toDate"])
+        toDate.setDate(toDate.getDate() + 1); // For some reason this is needed
+        td3.innerHTML = toDate.toLocaleDateString("en-US", {day: 'numeric', month: 'short'})
         tr.appendChild(td3)
         document.getElementById("next-cities-table").appendChild(tr)
       }
