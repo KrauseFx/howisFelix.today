@@ -353,6 +353,9 @@ meta: {}
   </h3>
   <p class="git-footnote" style="margin-bottom: 0px; margin-top: -10px;">on GitHub repo <a target="_blank" href="" id="git-repo-link" class="blurred">KrauseFx/krausefx.com</a></p>
   <hr />
+
+  {% include averages.html %}
+  <hr />
 </div>
 
 <h1>Background: Why I put my whole life into a single database</h1>
@@ -391,7 +394,7 @@ Since the start of this project, I collected <b><span id="data-points">~380,000<
   <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
 </table>
 
-Naturally after I started collecting this data, I wanted to visualize what I was learning, so I created this page. Initially, the domain [`howisFelix.today`](https://howisFelix.today) started as a joke to respond to friends asking when I'd be back in NYC or San Francisco. Rather than send them my plans, I'd point them to this domain. However, now it's more than my location; it's all of me.
+Naturally after I started collecting this data, I wanted to visualize what I was learning, so I created this page. Initially, the domain [`whereisFelix.today`](https://howisFelix.today) (now renamed to [`howisFelix.today`](https://howisFelix.today)) started as a joke to respond to friends asking when I'd be back in NYC or San Francisco. Rather than send them my schedule, I'd point them to this domain. However, now it's more than my location: it's all of me.
 
 **Rules I setup for the project**
 
