@@ -1659,7 +1659,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-manual-living-style-years">
       <h3>Living Style</h3>
       <p class="graph-description">
-        From late 2017 to early 2020 I lived without a permanent home address as a <a href='/blog/one-year-nomad' target='_blank'>digital nomad</a>, staying at various Airbnbs or taking over a few weeks of a lease from a friend
+        From late 2017 to early 2020 I lived without a permanent home address as a <a href='https://krausefx.com/blog/one-year-nomad' target='_blank'>digital nomad</a>, staying at various Airbnbs or taking over a few weeks of a lease from a friend
       </p>
 
       <ul>
@@ -1930,7 +1930,7 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
 
       <ul>
         
-          <li><span class='highlighted'>Not owning an apartment, and <a href='/blog/one-year-nomad' target='_blank'>living in Airbnbs as a nomad</a> I actually spent less money.</span> This was due to not having to buy any furniture, appliances, etc. but also because the number of items I could buy for myself was limited, as everything was limited to be able to fit into 2 suitcases. Additionally I didn't have to pay any rent whenever I traveled for my job, or during conferences.</li>
+          <li><span class='highlighted'>Not owning an apartment, and <a href='https://krausefx.com/blog/one-year-nomad' target='_blank'>living in Airbnbs as a nomad</a> I actually spent less money.</span> This was due to not having to buy any furniture, appliances, etc. but also because the number of items I could buy for myself was limited, as everything was limited to be able to fit into 2 suitcases. Additionally I didn't have to pay any rent whenever I traveled for my job, or during conferences.</li>
         
           <li>Misc. subscriptions/expenses are adding up quickly</li>
         
