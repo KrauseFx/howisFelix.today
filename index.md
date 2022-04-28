@@ -510,7 +510,7 @@ Naturally after I started collecting this data, I wanted to visualize what I was
 - Works well for frequent flyers with mixed time zones
 - 100% [fully open source](https://github.com/KrauseFx/FxLifeSheet), MIT licensed and self-hosted
 
-I selected <span class="highlighted">42</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">44</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 <p class="graph-overview-footer">
   Note: some graphs were created using third party services or apps, however most were generated using my <a href="https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground">own visualization code</a> using plotly.js.
@@ -1898,6 +1898,64 @@ I selected <span class="highlighted">42</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">3 years of data - Last updated on 2022-01-01</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-weather-conditions">
+      <h3>Weather Conditions per Year</h3>
+      <p class="graph-description">
+        Historic weather data based on the location I was at on that day based on my Swarm check-ins.
+      </p>
+
+      <ul>
+        
+          <li>2019 I experienced more cloudy weather than the following years</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        Visual Crossing historic weather data, Swarm
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/weather-conditions.png" class="image-link" alt="Weather Conditions per Year" onclick="enlargeImage(this, 'graphs/screens/weather-conditions.png', 'Weather Conditions per Year')" />
+      </div>
+
+      <span class="graph-date">3 years of data - Last updated on 2022-01-01</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-co2-emission">
+      <h3>CO2 Emissions from flying</h3>
+      <p class="graph-description">
+        My radiation exposure, as well as CO2 emissions rom all my flights over the last 7 years
+      </p>
+
+      <ul>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        Nomadlist
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/co2-emission.png" class="image-link" alt="CO2 Emissions from flying" onclick="enlargeImage(this, 'graphs/screens/co2-emission.png', 'CO2 Emissions from flying')" />
+      </div>
+
+      <span class="graph-date">7 years of data - Last updated on 2022-04-28</span>
     </div>
   
     

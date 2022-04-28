@@ -505,16 +505,23 @@
     - "December 2019 I spent in Columbus, Ohio, being the coldest week of the year"
   instructions: "github_style.html, set maximal value to 30, screenshot all 3 years"
   updated: "2022-01-01"
-# - id: "weather-conditions"
-#   title: "Weather Conditions per Year"
-#   source: 
-#   - "Visual Crossing historic weather data"
-#   - "Swarm"
-#   years: 3
-#   description: "Historic weather data based on the location I was at on that day based on my Swarm check-ins."
-#   takeaways:
-#     - "2019 I experienced more cloudy weather than the following years"
-#   updated: "2022-01-01"
+- id: "weather-conditions"
+  title: "Weather Conditions per Year"
+  source: 
+  - "Visual Crossing historic weather data"
+  - "Swarm"
+  years: 3
+  description: "Historic weather data based on the location I was at on that day based on my Swarm check-ins."
+  takeaways:
+    - "2019 I experienced more cloudy weather than the following years"
+  updated: "2022-01-01"
+- id: "co2-emission"
+  title: CO2 Emissions from flying
+  source:
+  - Nomadlist
+  years: 7
+  description: "My radiation exposure, as well as CO2 emissions from all my flights over the last 7 years"
+  updated: "2022-04-28"
 - id: "weather-temperature-buckets"
   title: "How does High Temperature affect my Life?"
   source:
@@ -550,7 +557,6 @@
   - End of 2021 I resumed work on FxLifeSheet to build this very page
   instructions: "Manually screenshot those years"
   updated: "2022-01-01"
-
 - id: "money-distribution"
   title: "Investment Management & Simulations"
   description: "Every second week I track my current investments and cash positions. It shows me how to most efficiently re-balance my investments in case they're off track, while also minimizing the occuring trading fees."
