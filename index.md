@@ -1937,7 +1937,7 @@ I selected <span class="highlighted">44</span> graphs to show publicly on this p
     <div class="graphs-entry" id="graphs-entry-co2-emission">
       <h3>CO2 Emissions from flying</h3>
       <p class="graph-description">
-        My radiation exposure, as well as CO2 emissions rom all my flights over the last 7 years
+        My radiation exposure, as well as CO2 emissions from all my flights over the last 7 years
       </p>
 
       <ul>
