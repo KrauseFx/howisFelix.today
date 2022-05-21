@@ -63,12 +63,12 @@ meta: {}
         tr.appendChild(td)
         const td2 = document.createElement("td")
         let fromDate = new Date(stay["fromDate"])
-        fromDate.setDate(fromDate.getDate() + 1); // For some reason this is needed
+        fromDate.setDate(fromDate.getDate());
         td2.innerHTML = fromDate.toLocaleDateString("en-US", {day: 'numeric', month: 'short'})
         tr.appendChild(td2)
         const td3 = document.createElement("td")
         let toDate = new Date(stay["toDate"])
-        toDate.setDate(toDate.getDate() + 1); // For some reason this is needed
+        toDate.setDate(toDate.getDate());
         td3.innerHTML = toDate.toLocaleDateString("en-US", {day: 'numeric', month: 'short'})
         tr.appendChild(td3)
         document.getElementById("next-cities-table").appendChild(tr)
