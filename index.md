@@ -510,7 +510,7 @@ Naturally after I started collecting this data, I wanted to visualize what I was
 - Works well for frequent flyers with mixed time zones
 - 100% [fully open source](https://github.com/KrauseFx/FxLifeSheet), MIT licensed and self-hosted
 
-I selected <span class="highlighted">44</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">45</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 <p class="graph-overview-footer">
   Note: some graphs were created using third party services or apps, however most were generated using my <a href="https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground">own visualization code</a> using plotly.js.
@@ -1140,6 +1140,46 @@ I selected <span class="highlighted">44</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">3 years of data - Last updated on 2022-01-01</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-lockdowns">
+      <h3>Effects of the Lockdowns</h3>
+      <p class="graph-description">
+        How was my life affected by the recent COVID lockdowns? As lockdown day I classify every day where places like restaurants, gyms and non-essential stores were closed.
+      </p>
+
+      <ul>
+        
+          <li>200% more time spent in audio & video calls with friends (non-work related)</li>
+        
+          <li>60% more likely to follow my meal plan (macros & calories)</li>
+        
+          <li>24% less steps</li>
+        
+          <li>40% less alcoholic beverages</li>
+        
+          <li>50% colder temperatures: Lockdowns tended to happen in Autumn and Winter</li>
+        
+          <li>100% less likely to dance</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        Manually
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/lockdowns.png" class="image-link" alt="Effects of the Lockdowns" onclick="enlargeImage(this, 'graphs/screens/lockdowns.png', 'Effects of the Lockdowns')" />
+      </div>
+
+      <span class="graph-date">3 years of data - Last updated on 2022-05-23</span>
     </div>
   
     

@@ -225,6 +225,20 @@
   - "I escaped parts of the Austrian lockdown by spending time in the US when I was already vaccinated"
   - "Surprisingly 2021 I spent more days in a full lockdown than in 2020, even with vaccines available"
   updated: "2022-01-01"
+- id: "lockdowns"
+  title: "Effects of the Lockdowns"
+  years: 3
+  source:
+  - "Manually"
+  description: "How was my life affected by the recent COVID lockdowns? As lockdown day I classify every day where places like restaurants, gyms and non-essential stores were closed."
+  takeaways:
+  - "200% more time spent in audio & video calls with friends (non-work related)"
+  - "60% more likely to follow my meal plan (macros & calories)"
+  - "24% less steps"
+  - "40% less alcoholic beverages"
+  - "50% colder temperatures: Lockdowns tended to happen in Autumn and Winter"
+  - "100% less likely to dance"
+  updated: "2022-05-23"
 - id: "manual-alcohol-intake"
   title: "Alcoholic Beverages per Day"
   source: 
