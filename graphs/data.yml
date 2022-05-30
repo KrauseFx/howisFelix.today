@@ -536,6 +536,18 @@
   years: 7
   description: "My radiation exposure, as well as CO2 emissions from all my flights over the last 7 years"
   updated: "2022-04-28"
+- id: "sleeping-heart-rate"
+  title: Resting Heart Rate based on location
+  source:
+  - Withings ScanWatch
+  - Manual
+  years: 1
+  description: "I noticed myself feeling more refreshed whenever I spent a night at my childhood bedroom at my parents' on the countryside."
+  takeaways:
+  - On average, my sleeping heart rate when sleeping at my parents' home is less than when sleeping at my own place in Vienna
+  - All nights above 70 bpm are usually associated with either drinking alcohol in the evening, being sick, or sleeping for only a short amount of time (e.g. before a flight)
+  - Even removing all 70+ bpm nights, there is a clear difference between nights spent at my own place in the city, compared to the nights spent on the countryside
+  updated: "2022-05-30"
 - id: "weather-temperature-buckets"
   title: "How does High Temperature affect my Life?"
   source:

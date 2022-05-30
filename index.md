@@ -510,7 +510,7 @@ Naturally after I started collecting this data, I wanted to visualize what I was
 - Works well for frequent flyers with mixed time zones
 - 100% [fully open source](https://github.com/KrauseFx/FxLifeSheet), MIT licensed and self-hosted
 
-I selected <span class="highlighted">45</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">46</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 <p class="graph-overview-footer">
   Note: some graphs were created using third party services or apps, however most were generated using my <a href="https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground">own visualization code</a> using plotly.js.
@@ -1996,6 +1996,40 @@ I selected <span class="highlighted">45</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">7 years of data - Last updated on 2022-04-28</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-sleeping-heart-rate">
+      <h3>Resting Heart Rate based on location</h3>
+      <p class="graph-description">
+        I noticed myself feeling more refreshed whenever I spent a night at my childhood bedroom at my parents' on the countryside.
+      </p>
+
+      <ul>
+        
+          <li>On average, my sleeping heart rate when sleeping at my parents' home is less than when sleeping at my own place in Vienna</li>
+        
+          <li>All nights above 70 bpm are usually associated with either drinking alcohol in the evening, being sick, or sleeping for only a short amount of time (e.g. before a flight)</li>
+        
+          <li>Even removing all 70+ bpm nights, there is a clear difference between nights spent at my own place in the city, compared to the nights spent on the countryside</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        Withings ScanWatch, Manual
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/sleeping-heart-rate.png" class="image-link" alt="Resting Heart Rate based on location" onclick="enlargeImage(this, 'graphs/screens/sleeping-heart-rate.png', 'Resting Heart Rate based on location')" />
+      </div>
+
+      <span class="graph-date">1 years of data - Last updated on 2022-05-30</span>
     </div>
   
     
