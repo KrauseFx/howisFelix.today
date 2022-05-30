@@ -466,7 +466,7 @@ meta: {}
 
 <h1>Background: Why I put my whole life into a single database</h1>
 
-Back in 2019, I started collecting all kinds of [metrics about my life](https://github.com/KrauseFx/FxLifeSheet). Every single day for the last 2.5 years I tracked over 100 different data types - ranging from fitness & nutrition to social life, computer usage and weather.
+Back in 2019, I started collecting all kinds of [metrics about my life](https://github.com/KrauseFx/FxLifeSheet). Every single day for the last 3 years I tracked over 100 different data types - ranging from fitness & nutrition to social life, computer usage and weather.
 
 <div class="social-media-list" style="float: right; margin-top: 8px; margin-left: 15px;">
   <p>
