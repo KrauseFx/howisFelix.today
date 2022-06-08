@@ -2056,6 +2056,8 @@ I selected <span class="highlighted">47</span> graphs to show publicly on this p
         
           <li>As part of this script, I built a tool to create a playlist of the 500 most listened to songs, as well as the first 500 songs listened to</li>
         
+          <li>In total, I have paid 1,080 EUR for Spotify Premium</li>
+        
       </ul>
 
       <span class="graph-sources">
