@@ -2096,6 +2096,8 @@ I selected <span class="highlighted">48</span> graphs to show publicly on this p
         
           <li>Overall you can see a clear downwards trend of the purple 'Year' line over the last 3 years</li>
         
+          <li>Since April 2019, I have published a total of 1,906 Instagram stories, averaging 1.6 Stories per day</li>
+        
       </ul>
 
       <span class="graph-sources">
