@@ -510,7 +510,7 @@ Naturally after I started collecting this data, I wanted to visualize what I was
 - Works well for frequent flyers with mixed time zones
 - 100% [fully open source](https://github.com/KrauseFx/FxLifeSheet), MIT licensed and self-hosted
 
-I selected <span class="highlighted">46</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">47</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 <p class="graph-overview-footer">
   Note: some graphs were created using third party services or apps, however most were generated using my <a href="https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground">own visualization code</a> using plotly.js.
@@ -2030,6 +2030,46 @@ I selected <span class="highlighted">46</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">1 years of data - Last updated on 2022-05-30</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-spotify-listen-duration">
+      <h3>Spotify Listening Duration over Time</h3>
+      <p class="graph-description">
+        Spotify tracks every single interaction on their end, including every single song you've ever listened to, and if you finished or skipped each song.
+      </p>
+
+      <ul>
+        
+          <li>Since 2013, I've listened to a total of <span class='highlighted'>480,155 minutes</span> of music, that's 8,002 hours, or 334 days</li>
+        
+          <li>That's <span class='highlighted'>202,148</span> songs, however I only finished 49% of them</li>
+        
+          <li>End of 2013 I didn't have an active Spotify subscription, due to issues accessing it from Austria</li>
+        
+          <li>During some areas in my life, I listened to Cercle/Coccolino Deep sets on YouTube, therefore using Spotify less</li>
+        
+          <li>I stored a total of 312 Spotify Discover Weekly playlists, every single one since December 2015</li>
+        
+          <li>As part of this script, I built a tool to create a playlist of the 500 most listened to songs, as well as the first 500 songs listened to</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        Spotify
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/spotify-listen-duration.png" class="image-link" alt="Spotify Listening Duration over Time" onclick="enlargeImage(this, 'graphs/screens/spotify-listen-duration.png', 'Spotify Listening Duration over Time')" />
+      </div>
+
+      <span class="graph-date">9 years of data - Last updated on 2022-05-01</span>
     </div>
   
     

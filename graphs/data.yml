@@ -548,6 +548,20 @@
   - All nights above 70 bpm are usually associated with either drinking alcohol in the evening, being sick, or sleeping for only a short amount of time (e.g. before a flight)
   - Even removing all 70+ bpm nights, there is a clear difference between nights spent at my own place in the city, compared to the nights spent on the countryside
   updated: "2022-05-30"
+- id: "spotify-listen-duration"
+  title: "Spotify Listening Duration over Time"
+  years: 9
+  updated: "2022-05-01"
+  description: "Spotify tracks every single interaction on their end, including every single song you've ever listened to, and if you finished or skipped each song."
+  takeaways:
+  - "Since 2013, I've listened to a total of **480,155 minutes** of music, that's 8,002 hours, or 334 days"
+  - "That's **202,148** songs, however I only finished 49% of them"
+  - "End of 2013 I didn't have an active Spotify subscription, due to issues accessing it from Austria"
+  - "During some areas in my life, I listened to Cercle/Coccolino Deep sets on YouTube, therefore using Spotify less"
+  - "I stored a total of 312 Spotify Discover Weekly playlists, every single one since December 2015"
+  - "As part of this script, I built a tool to create a playlist of the 500 most listened to songs, as well as the first 500 songs listened to"
+  source:
+  - "Spotify"
 - id: "weather-temperature-buckets"
   title: "How does High Temperature affect my Life?"
   source:
