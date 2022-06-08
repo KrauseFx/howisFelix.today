@@ -510,7 +510,7 @@ Naturally after I started collecting this data, I wanted to visualize what I was
 - Works well for frequent flyers with mixed time zones
 - 100% [fully open source](https://github.com/KrauseFx/FxLifeSheet), MIT licensed and self-hosted
 
-I selected <span class="highlighted">47</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
+I selected <span class="highlighted">48</span> graphs to show publicly on this page. For privacy reasons, and to prevent any accidental data leaks, the graphs below are snapshots taken on a given day.
 
 <p class="graph-overview-footer">
   Note: some graphs were created using third party services or apps, however most were generated using my <a href="https://github.com/KrauseFx/FxLifeSheet/tree/master/visual_playground">own visualization code</a> using plotly.js.
@@ -2072,6 +2072,44 @@ I selected <span class="highlighted">47</span> graphs to show publicly on this p
       </div>
 
       <span class="graph-date">9 years of data - Last updated on 2022-05-01</span>
+    </div>
+  
+    
+    
+    
+
+    <div class="graphs-entry" id="graphs-entry-instagram-stories">
+      <h3>Number of Instagram Stories per Day</h3>
+      <p class="graph-description">
+        Since I've built <a href='https://instapipe.net'>instapipe.net</a>, I have all my Instagram Stories available in my own database. The blue 'Monthly' area shows the monthly average of IG stories posted, while the green shows the 'Quarterly' average and purple the 'Yearly' average.
+      </p>
+
+      <ul>
+        
+          <li>April 2019 I built <a href='https://instapipe.net'>instapipe</a> while traveling in Hong Kong and South Korea</li>
+        
+          <li>November 2019 I had a deadline at work, as well as being sick for a few days</li>
+        
+          <li>March 2020, the start of COVID, shows a clear downwards trend the following months until June when Austria opened up again</li>
+        
+          <li>September 2021 I was on a roadtrip through Iceland, posting many pictures & videos</li>
+        
+          <li>Overall you can see a clear downwards trend of the purple 'Year' line over the last 3 years</li>
+        
+      </ul>
+
+      <span class="graph-sources">
+        <span class="graph-sources-header">
+          Sources: 
+        </span>
+        
+      </span>
+
+      <div class="image-container">
+        <img src="graphs/screens/instagram-stories.png" class="image-link" alt="Number of Instagram Stories per Day" onclick="enlargeImage(this, 'graphs/screens/instagram-stories.png', 'Number of Instagram Stories per Day')" />
+      </div>
+
+      <span class="graph-date">3 years of data - Last updated on 2022-06-01</span>
     </div>
   
     

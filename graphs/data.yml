@@ -563,6 +563,17 @@
   - "In total, I have paid 1,080 EUR for Spotify Premium"
   source:
   - "Spotify"
+- id: "instagram-stories"
+  title: "Number of Instagram Stories per Day"
+  updated: "2022-06-01"
+  years: 3
+  description: "Since I've built <a href='https://instapipe.net'>instapipe.net</a>, I have all my Instagram Stories available in my own database. The blue 'Monthly' area shows the monthly average of IG stories posted, while the green shows the 'Quarterly' average and purple the 'Yearly' average."
+  takeaways:
+  - "April 2019 I built <a href='https://instapipe.net'>instapipe</a> while traveling in Hong Kong and South Korea"
+  - "November 2019 I had a deadline at work, as well as being sick for a few days"
+  - "March 2020, the start of COVID, shows a clear downwards trend the following months until June when Austria opened up again"
+  - "September 2021 I was on a roadtrip through Iceland, posting many pictures & videos"
+  - "Overall you can see a clear downwards trend of the purple 'Year' line over the last 3 years"
 - id: "weather-temperature-buckets"
   title: "How does High Temperature affect my Life?"
   source:
