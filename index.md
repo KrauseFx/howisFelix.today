@@ -1704,7 +1704,7 @@ I selected <span class="highlighted">48</span> graphs to show publicly on this p
         
           <li>30% more likely to hit the gym</li>
         
-          <li>23% more alcoholic beverages (there were no lockdowns in Summer, also )</li>
+          <li>23% more alcoholic beverages (there were no lockdowns in Summer)</li>
         
           <li>20% less time spent reading news & opinions (as per <a href='https://rescuetime.com' target='_blank'>RescueTime</a> classifications)</li>
         
