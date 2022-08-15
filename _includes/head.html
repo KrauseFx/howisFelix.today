@@ -14,7 +14,8 @@
   
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
   {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
+    <script defer data-domain="howisfelix.today" src="https://plausible.io/js/plausible.js"></script>
   {% endif %}
 </head>
