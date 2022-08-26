@@ -9,7 +9,7 @@ meta: {}
 
 {% include instapipe.html %}
 <script type="text/javascript">
-  let url = "https://where-is-felix-today-backend.herokuapp.com/api.json"
+  let url = "https://backend.howisfelix.today/api.json"
 
   function daysAgo(date) {
     const deltaDays = Math.floor((Date.now() - date.getTime()) / (1000 * 3600 * 24));
