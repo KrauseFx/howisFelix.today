@@ -2950,6 +2950,18 @@ I'm very happy I've built this project in the first place, as it gave me a much 
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
+  @media screen and (min-width: 800px) {
+    .imageCarousel > a > img {
+      height: 160px;
+    }
+    #personalCarousel > a > span {
+      height: 160px;
+      width: 160px;
+    }
+    .imageCarousel {
+      height: 167px;
+    }
+  }
   @media screen and (max-width: 1100px) {
     #data-sources-overview td {
       padding: 5px 10px;
