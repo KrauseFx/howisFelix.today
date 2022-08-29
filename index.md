@@ -180,11 +180,11 @@ meta: {}
       let currentPhoto = photos[photoIndex]
 
       var linkNode = document.createElement("a");
-      linkNode["href"] = currentPhoto["link"] || "https://instagram.com/krausefx"
+      linkNode["href"] = currentPhoto["permalink"]
       linkNode["target"] = "_blank"
       var imageNode = document.createElement("span")
-      imageNode["style"] = "background-image: url(" + currentPhoto["url"] + ")"
-      imageNode["alt"] = currentPhoto["text"]
+      imageNode["style"] = "background-image: url(" + currentPhoto["thumbnail_url"] + ")"
+      imageNode.setAttribute("alt", currentPhoto["caption"])
 
       linkNode.appendChild(imageNode)
       personalCarousel.appendChild(linkNode)
