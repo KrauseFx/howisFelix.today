@@ -177,6 +177,7 @@ meta: {}
     var photos = data["recentPhotos"]
     var personalCarousel = document.getElementById("personalCarousel")
     for (let photoIndex in photos) {
+      if (photoIndex > 10) { break; } // to save bandwith
       let currentPhoto = photos[photoIndex]
 
       var linkNode = document.createElement("a");
