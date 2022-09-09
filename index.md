@@ -117,7 +117,7 @@ meta: {}
     document.getElementById("mood-hours-ago").innerHTML = "(" + data["currentMoodRelativeTime"] + ")"
 
     // Render food data (if available)
-    if (data["todaysMacros"]["kcal"] > 0) {
+    if (data["todaysMacros"] && data["todaysMacros"]["kcal"] > 0) {
       document.getElementById("todaysMacros-kcal").innerHTML = data["todaysMacros"]["kcal"] + " kcal"
       const totalKcal = otherFxLifeData["macrosCarbs"]["value"] * 4 + otherFxLifeData["macrosProtein"]["value"] * 4 + otherFxLifeData["macrosFat"]["value"] * 9;
       document.getElementById("total-kcal").innerHTML = totalKcal
@@ -357,7 +357,7 @@ meta: {}
   </h3>
   <hr />
 
-  <div id="food-container">
+  <div style="display: none" id="food-container">
     <h3>Felix ate today</h3>
     <div class="food-overview blurred">
       <div>
