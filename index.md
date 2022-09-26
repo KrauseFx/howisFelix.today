@@ -579,7 +579,7 @@ I selected <span class="highlighted">48</span> graphs to show publicly on this p
         
           <li>28% more time spent reading or listening to audio books</li>
         
-          <li>26% more likely to have worked on interrelated technical challenges</li>
+          <li>26% more likely to have worked on interesting technical challenges</li>
         
           <li>26% warmer temperature that day</li>
         
