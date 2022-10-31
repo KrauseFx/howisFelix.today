@@ -118,7 +118,7 @@ meta: {}
     document.getElementById("mood-hours-ago").innerHTML = "(" + data["currentMoodRelativeTime"] + ")"
 
     // Render food data (if available)
-    if (data["todaysMacros"]["kcal"] > 0) {
+    if (data["todaysMacros"] && data["todaysMacros"]["kcal"] > 0) {
       document.getElementById("todaysMacros-kcal").innerHTML = data["todaysMacros"]["kcal"] + " kcal"
       const totalKcal = otherFxLifeData["macrosCarbs"]["value"] * 4 + otherFxLifeData["macrosProtein"]["value"] * 4 + otherFxLifeData["macrosFat"]["value"] * 9;
       document.getElementById("total-kcal").innerHTML = totalKcal
@@ -181,7 +181,7 @@ meta: {}
       let currentPhoto = photos[photoIndex]
 
       var linkNode = document.createElement("a");
-      linkNode["href"] = currentPhoto["link"] || "https://instagram.com/krausefx"
+      linkNode["href"] = currentPhoto["permalink"] || "https://instagram.com/krausefx"
       linkNode["target"] = "_blank"
       var imageNode = document.createElement("span")
       imageNode["style"] = "background-image: url(" + currentPhoto["url"] + ")"
@@ -442,7 +442,7 @@ meta: {}
         <td><span class="highlighted blurred" id="trello-count">173 tasks</span></td>
       </tr>
       <tr>
-        <td>Unique Visitors</td>
+        <td>Unique Website Visitors</td>
         <td><span class="highlighted blurred" id="visitors-count">162,457 (since August)</span></td>
       </tr>
       <tr>

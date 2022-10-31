@@ -178,15 +178,14 @@ meta: {}
     var photos = data["recentPhotos"]
     var personalCarousel = document.getElementById("personalCarousel")
     for (let photoIndex in photos) {
-      if (photoIndex > 10) { break; } // to save bandwith
       let currentPhoto = photos[photoIndex]
 
       var linkNode = document.createElement("a");
-      linkNode["href"] = currentPhoto["permalink"]
+      linkNode["href"] = currentPhoto["permalink"] || "https://instagram.com/krausefx"
       linkNode["target"] = "_blank"
       var imageNode = document.createElement("span")
-      imageNode["style"] = "background-image: url(" + currentPhoto["thumbnail_url"] + ")"
-      imageNode.setAttribute("alt", currentPhoto["caption"])
+      imageNode["style"] = "background-image: url(" + currentPhoto["url"] + ")"
+      imageNode["alt"] = currentPhoto["text"]
 
       linkNode.appendChild(imageNode)
       personalCarousel.appendChild(linkNode)
@@ -359,7 +358,7 @@ meta: {}
   </h3>
   <hr />
 
-  <div style="display: none" id="food-container">
+  <div id="food-container">
     <h3>Felix ate today</h3>
     <div class="food-overview blurred">
       <div>
@@ -443,7 +442,7 @@ meta: {}
         <td><span class="highlighted blurred" id="trello-count">173 tasks</span></td>
       </tr>
       <tr>
-        <td>Unique Visitors</td>
+        <td>Unique Website Visitors</td>
         <td><span class="highlighted blurred" id="visitors-count">162,457 (since August)</span></td>
       </tr>
       <tr>
@@ -2955,18 +2954,6 @@ I'm very happy I've built this project in the first place, as it gave me a much 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-  }
-  @media screen and (min-width: 800px) {
-    .imageCarousel > a > img {
-      height: 160px;
-    }
-    #personalCarousel > a > span {
-      height: 160px;
-      width: 160px;
-    }
-    .imageCarousel {
-      height: 167px;
-    }
   }
   @media screen and (max-width: 1100px) {
     #data-sources-overview td {
