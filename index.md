@@ -184,7 +184,7 @@ meta: {}
       linkNode["href"] = currentPhoto["permalink"] || "https://instagram.com/krausefx"
       linkNode["target"] = "_blank"
       var imageNode = document.createElement("span")
-      imageNode["style"] = "background-image: url(" + currentPhoto["url"] + ")"
+      imageNode["style"] = "background-image: url(" + currentPhoto["thumbnail_url"] + ")"
       imageNode["alt"] = currentPhoto["text"]
 
       linkNode.appendChild(imageNode)
