@@ -426,7 +426,7 @@ meta: {}
         <td>Computer Time</td>
         <td>
           <span class="highlighted blurred" id="total-computer-time">12,677 hours</span>
-          <span class="ago-subtle blurred">(since 2013)</span>
+          <span class="ago-subtle blurred" id="since2013">(since 2013)</span>
         </td>
       </tr>
       <tr>
@@ -1047,6 +1047,9 @@ I'm very happy I've built this project in the first place, as it gave me a much 
     }
     #real-time-table > * > tr > td:first-child {
       width: 115px;
+    }
+    #since2013 {
+      display: none;
     }
   }
   @media screen and (max-width: 450px) {
