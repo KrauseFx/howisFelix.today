@@ -502,7 +502,7 @@ Since the start of this project, I collected <b><span id="data-points">~380,000<
   <tr><td>Manually entered</td><td><span class="highlighted" id="h-manually">67,031</span></td><td>Fitness, mood, sleep, social life, health, nutrition, energy levels, TV, stress, ...</td></tr>
   <tr><td>Manually entered date ranges</td><td><span class="highlighted" id="h-timeranges">19,273</span></td><td>Occupation, lockdown status, living setup</td></tr>
   <tr><td>Weather API</td><td><span class="highlighted" id="h-weather">15,442</span></td><td>Temperature, rain, sunlight, wind</td></tr>
-  <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Steps data</td></tr>
+  <tr><td>Apple Health</td><td><span class="highlighted" id="h-health">3,048</span></td><td>Days of steps data</td></tr>
 </table>
 
 Naturally after I started collecting this data, I wanted to visualize what I was learning, so I created this page. Initially, the domain [`whereisFelix.today`](https://howisFelix.today) (now renamed to [`howisFelix.today`](https://howisFelix.today)) started as a joke to respond to friends asking when I'd be back in NYC or San Francisco. Rather than send them my schedule, I'd point them to this domain. However, now it's more than my location: it's all of me.
