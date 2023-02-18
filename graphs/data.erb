@@ -84,7 +84,6 @@ meta: {}
     document.getElementById("current-sleep-duration").innerHTML =
       "<span class='highlighted'>" + otherFxLifeData["sleepDurationWithings"]["value"] + " hours</span> <span class=\"ago-subtle\">(last night)</span>"
     document.getElementById("last-workout").innerHTML = daysAgo(new Date(otherFxLifeData["gym"]["time"]))
-    document.getElementById("last-meditated").innerHTML = daysAgo(new Date(otherFxLifeData["meditated"]["time"]))
     document.getElementById("data-points").innerHTML = otherFxLifeData["totalAmountOfEntries"]["value"].toLocaleString()
     document.getElementById("data-entries-count").innerHTML = otherFxLifeData["totalAmountOfEntries"]["value"].toLocaleString() + " data entries"
     document.getElementById("total-computer-time").innerHTML = otherFxLifeData["totalComputerUsageHours"]["value"].toLocaleString() + " hours"
@@ -428,10 +427,6 @@ meta: {}
           <span class="highlighted blurred" id="total-computer-time">12,677 hours</span>
           <span class="ago-subtle blurred" id="since2013">(since 2013)</span>
         </td>
-      </tr>
-      <tr>
-        <td>Last Meditated</td>
-        <td><span class="highlighted blurred" id="last-meditated">yesterday</span></td>
       </tr>
       <tr>
         <td>Inbox</td>
