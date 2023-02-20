@@ -89,7 +89,7 @@ meta: {}
     document.getElementById("total-computer-time").innerHTML = otherFxLifeData["totalComputerUsageHours"]["value"].toLocaleString() + " hours"
     document.getElementById("inbox-count").innerHTML = otherFxLifeData["emailsInbox"]["value"].toLocaleString() + " emails"
     document.getElementById("trello-count").innerHTML = data["numberOfTodoItems"].toLocaleString() + " tasks"
-    document.getElementById("visitors-count").innerHTML = data["websiteVisitors"]["howisfelix.today"]["6m"].toLocaleString() + " <span class=\"ago-subtle\">(since August)</span>"
+    document.getElementById("visitors-count").innerHTML = data["websiteVisitors"]["howisfelix.today"]["6m"].toLocaleString() + " <span class=\"ago-subtle\">(<a href='https://plausible.io/howisfelix.today' target='_blank'>since August</a>)</span>"
 
     // Overview of data sources
     document.getElementById("h-rescuetime").innerHTML = otherFxLifeData["rescue_time"]["value"].toLocaleString()
@@ -438,7 +438,7 @@ meta: {}
       </tr>
       <tr>
         <td>Unique Website Visitors</td>
-        <td><span class="highlighted blurred" id="visitors-count"><a href="https://plausible.io/howisfelix.today" target="_blank">162,457 (since August)</a></span></td>
+        <td><span class="highlighted blurred" id="visitors-count">162,457 (<a href="https://plausible.io/howisfelix.today" target="_blank">since August</a>)</span></td>
       </tr>
       <tr>
         <td>Database size</td>
