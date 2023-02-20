@@ -89,7 +89,7 @@ meta: {}
     document.getElementById("total-computer-time").innerHTML = otherFxLifeData["totalComputerUsageHours"]["value"].toLocaleString() + " hours"
     document.getElementById("inbox-count").innerHTML = otherFxLifeData["emailsInbox"]["value"].toLocaleString() + " emails"
     document.getElementById("trello-count").innerHTML = data["numberOfTodoItems"].toLocaleString() + " tasks"
-    document.getElementById("visitors-count").innerHTML = data["websiteVisitors"]["howisfelix.today"]["6m"].toLocaleString() + " <span class=\"ago-subtle\">(<a href='https://plausible.io/howisfelix.today' target='_blank'>since August</a>)</span>"
+    document.getElementById("visitors-count").innerHTML = data["websiteVisitors"]["howisfelix.today"]["6m"].toLocaleString() + " <span class=\"ago-subtle\">(<a href='https://plausible.io/howisfelix.today?period=all' target='_blank'>since August</a>)</span>"
 
     // Overview of data sources
     document.getElementById("h-rescuetime").innerHTML = otherFxLifeData["rescue_time"]["value"].toLocaleString()
