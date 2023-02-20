@@ -438,7 +438,7 @@ meta: {}
       </tr>
       <tr>
         <td>Unique Website Visitors</td>
-        <td><span class="highlighted blurred" id="visitors-count">162,457 (since August)</span></td>
+        <td><span class="highlighted blurred" id="visitors-count"><a href="https://plausible.io/howisfelix.today" target="_blank">162,457 (since August)</a></span></td>
       </tr>
       <tr>
         <td>Database size</td>
