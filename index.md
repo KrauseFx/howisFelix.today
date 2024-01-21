@@ -78,8 +78,8 @@ meta: {}
 
     // Render today's metadata
     document.getElementById("current-weight").innerHTML = 
-      "<span class='highlighted'>" + (otherFxLifeData["weight"]["value"] * 0.453592).toFixed(1) + " kg</span>/ " +
-      (otherFxLifeData["weight"]["value"]).toFixed(1) + " lbs"
+      "<span class='highlighted'>" + (otherFxLifeData["weight"]["value"]).toFixed(1) + " kg</span>/ " +
+      (otherFxLifeData["weight"]["value"] / 0.453592).toFixed(1) + " lbs"
     document.getElementById("current-weight-time").innerHTML = "(" + daysAgo(new Date(otherFxLifeData["weight"]["time"])) + ")"
     document.getElementById("current-sleep-duration").innerHTML =
       "<span class='highlighted'>" + otherFxLifeData["sleepDurationWithings"]["value"] + " hours</span> <span class=\"ago-subtle\">(last night)</span>"
