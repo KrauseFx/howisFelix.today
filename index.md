@@ -335,9 +335,9 @@ meta: {}
   <img id="storyProfilePicture" src="assets/FelixKrauseCropped.jpg" onclick="showStories()" />
 </div>
 
-<div id="realTimeDataDiv">
-  <h2 id="currentCityContainer"><a id="fx-user-link" href="https://twitter.com/KrauseFx">Felix</a> is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
-  <h3 id="isMovingContainer" style="display: none"><a id="fx-user-link" href="https://twitter.com/KrauseFx">Felix</a> is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
+<div id="realTimeDataDiv" class="hidden-due-to-project-paused">
+  <h2 id="currentCityContainer"><a id="fx-user-link" href="https://bsky.app/profile/krausefx.bsky.social">Felix</a> is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
+  <h3 id="isMovingContainer" style="display: none"><a id="fx-user-link" href="https://bsky.app/profile/krausefx.bsky.social">Felix</a> is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
   <h4 id="nextCityContainer" style="display: none">Leaving for <span id="nextCityText"></span> <span id="nextCityTime"></span></h4>
 
   <table id="next-cities-table" cellspacing="0" cellpadding="0">
@@ -462,6 +462,9 @@ meta: {}
 
   {% include averages.html %}
   <hr />
+</div>
+
+<div style="margin-top: 300px">
 </div>
 
 <h1>Background: Why I put my whole life into a single database</h1>
@@ -2348,6 +2351,10 @@ I'll likely continue tracking my mood, as well as a few other key metrics, howev
 
 I'm very happy I've built this project in the first place, as it gave me a much better awareness of everything going on in my life. I'm excited to have built this website to wrap-up this project and show-case some of the outcomes to the public.
 
+<hr style="margin-top: 10px; margin-bottom: 10px;" />
+
+<b>2025 Update:</b> I've stopped collecting data and working on this project, but I will keep this page alive.
+
 <hr style="margin-top: 10px;" />
 
 <footer>
@@ -2547,6 +2554,9 @@ I'm very happy I've built this project in the first place, as it gave me a much 
 </script>
 
 <style type="text/css">
+  .hidden-due-to-project-paused {
+    display: none !important;
+  }
   #graphs-container {
     display: flex;
     flex-wrap: wrap;
