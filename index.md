@@ -336,8 +336,8 @@ meta: {}
 </div>
 
 <div id="realTimeDataDiv" class="hidden-due-to-project-paused">
-  <h2 id="currentCityContainer"><a id="fx-user-link" href="https://bsky.app/profile/krausefx.bsky.social">Felix</a> is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
-  <h3 id="isMovingContainer" style="display: none"><a id="fx-user-link" href="https://bsky.app/profile/krausefx.bsky.social">Felix</a> is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
+  <h2 id="currentCityContainer"><a id="fx-user-link" href="https://x.com/krausefx">Felix</a> is currently in <b id="currentCityB" class="highlighted blurred">Vienna, AT</b></h2>
+  <h3 id="isMovingContainer" style="display: none"><a id="fx-user-link" href="https://x.com/krausefx">Felix</a> is currently heading to <b id="nextCityB" class="highlighted"></b></h3>
   <h4 id="nextCityContainer" style="display: none">Leaving for <span id="nextCityText"></span> <span id="nextCityTime"></span></h4>
 
   <table id="next-cities-table" cellspacing="0" cellpadding="0">
